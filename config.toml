@@ -1,0 +1,65 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "Lake Martin Chiropractic"
+
+enableRobotsTXT = true
+disableAliases = true
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+suffix = ""
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+# Site Params
+[params]
+description = "At Lake Martin Chiropractic we know that patient relationships are important. Our staff always puts the needs and wellbeing of our patients first. We strive to offer affordable healthcare, and to serve the needs of patients so they can enjoy life without restrictions."
+facebook = ""
+instagram = ""
+pinterest = ""
+
+# Main Menu
+
+# About Section
+
+[[menu.main]]
+  name = "First Visit"
+  weight = 1
+  url = "/first-visit/"
+
+[[menu.main]]
+  name = "Dr. Peaden"
+  weight = 2
+  url = "/dr-peaden/"
+
+[[menu.main]]
+  name = "Care Team"
+  weight = 3
+  url = "/your-care-team/"
+
+[[menu.main]]
+  name = "Our Services"
+  weight = 4
+  url = "/our-services/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 5
+  url = "/contact/"

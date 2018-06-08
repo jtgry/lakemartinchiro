@@ -1,0 +1,252 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+html{
+  font-size: 100%;
+  @media (max-width: $tablet) {
+    font-size:  90%;
+  }
+}
+/**
+ * Basic styling
+ */
+body {
+    font-weight: $base-font-weight;
+    line-height: $base-line-height;
+    font-family: $base-font-family;
+    color: $color-black;
+    background-color: $color-white;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: “liga” on;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+    -ms-font-feature-settings: normal;
+}
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 2rem;
+}
+h4{
+  font-size: 1.5rem;
+}
+h5{
+  font-size: 1.2rem;
+}
+h6{
+  font-size: 1rem;
+}
+p{
+  font-family: $base-font-family;
+  font-size: 1.2rem;
+  color: $color-black;
+  letter-spacing: .01em;
+}
+li,ol,td,th{
+    font-family: $base-font-family;
+    font-size: 1.2rem;
+    color: $color-black;
+    letter-spacing: -.01em;
+    margin-bottom: $spacing-unit / 4;
+}
+.page-content p:first-of-type:first-letter {
+  font-family: $base-font-family;
+  font-size: 360%;
+  padding: .20em .1em 0 0;
+  margin: 0;
+  float: left;
+  line-height: .5;
+  font-weight: 400;
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+figcaption {
+    font-size: $small-font-size;
+}
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+}
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: $alt-font-family;
+    color: $color-brand-alt;
+}
+
+/**
+ * Links
+ */
+a{
+color: $color-brand;
+font-weight: 300;
+text-decoration: none;
+line-height: 2;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent; /* For some Androids */
+-webkit-transition: all .2s ease-out; /* Saf3.2+, Chrome */
+-moz-transition: all .2s ease-out; /* FF3.7+ */
+-o-transition: all .2s ease-out;/* Opera 10.5 */
+transition: all .2s ease-out;
+
+&:visited {
+    color: $color-brand;
+}
+
+&:hover {
+    color: darken($color-brand, 5%);
+    text-decoration: none;
+  }
+}
+p{
+  a{
+    box-shadow: 0 .1em .4em - .4em rgba( $color-brand, .6 );
+    &:hover {
+      box-shadow: 0 .1em .4em - .4em $color-brand;
+    }
+  }
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: $color-grey-light;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: $spacing-unit / 2;
+}
+.hr-space{
+  width: 5em;
+  height: 1em;
+  margin-bottom: $spacing-unit * 1;
+  background: $color-brand-alt;
+}
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $color-grey;
+    border-left: 4px solid $color-grey-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $color-grey-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+address{
+    font-family: $alt-font-family;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+}
+.container {
+    width: 90%;
+    padding: 0 5%;
+    margin: 0 auto;
+    max-width: $content-width;
+    @media (max-width: $phone) {
+      width: 90%;
+      padding: 0 5%;
+      margin: 0 auto;
+    }
+}
+.container-wide {
+    width: 90%;
+    padding: 0 5%;
+    margin: 0 auto;
+    @media (max-width: $phone) {
+      width: 90%;
+      padding: 0 5%;
+      margin: 0 auto;
+    }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

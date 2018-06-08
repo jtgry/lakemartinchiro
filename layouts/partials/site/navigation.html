@@ -1,0 +1,38 @@
+<nav id="main-nav" class="fade-in-slower">
+  <div class="vertical">
+    <div class="nav-container">
+      <div class="nav-items">
+        <a href="{{ .Site.BaseURL }}" class="nav-title"><img class="nav-logo" src="/images/logo-small.svg" alt="{{ .Site.Title }}"></a>
+        <ul>
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main.ByWeight }}
+            <li>
+              <a href="{{ .URL }}" id="" class="navbar-item{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                {{ .Name }}
+              </a>
+            </li> 
+          {{ end }}
+          <li><a href="#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+            <a href="#" class="nav-button" id="navButton">
+      <span class="burger-icon"></span>
+    </a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+<nav class="mobile-nav">
+  <div class="mobile-nav-items">
+    <ul class=vertical>
+      {{ $currentPage := . }}
+        {{ range .Site.Menus.main.ByWeight }}
+        <li>
+          <a href="{{ .URL }}" id="" class="navbar-item{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+            {{ .Name }}
+          </a>
+        </li> 
+      {{ end }}
+    </ul>
+  </div>
+</nav>

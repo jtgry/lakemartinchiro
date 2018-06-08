@@ -1,0 +1,150 @@
+@import 'jeet/jeet';
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat/Montserrat-Regular.eot');
+    src: url('/fonts/montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('/fonts/montserrat/Montserrat-Regular.woff') format('woff'),
+        url('/fonts/montserrat/Montserrat-Regular.ttf') format('truetype'),
+        url('/fonts/montserrat/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat/Montserrat-SemiBold.eot');
+    src: url('/fonts/montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/fonts/montserrat/Montserrat-SemiBold.woff') format('woff'),
+        url('/fonts/montserrat/Montserrat-SemiBold.ttf') format('truetype'),
+        url('/fonts/montserrat/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat/Montserrat-Medium.eot');
+    src: url('/fonts/montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('/fonts/montserrat/Montserrat-Medium.woff') format('woff'),
+        url('/fonts/montserrat/Montserrat-Medium.ttf') format('truetype'),
+        url('/fonts/montserrat/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat/Montserrat-Bold.eot');
+    src: url('/fonts/montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('/fonts/montserrat/Montserrat-Bold.woff') format('woff'),
+        url('/fonts/montserrat/Montserrat-Bold.ttf') format('truetype'),
+        url('/fonts/montserrat/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat/Montserrat-ExtraBold.eot');
+    src: url('/fonts/montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('/fonts/montserrat/Montserrat-ExtraBold.woff') format('woff'),
+        url('/fonts/montserrat/Montserrat-ExtraBold.ttf') format('truetype'),
+        url('/fonts/montserrat/Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'northwellregular';
+    src: url('/fonts/northwell/Northwell.ttf') format('truetype'),
+         url('/fonts/northwell/Northwell.otf') format("opentype");
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lora';
+    src: url('/fonts/lora/Lora-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('/fonts/oswald/Oswald-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'oswald';
+    src: url('/fonts/oswald/Oswald-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+// Our variables
+$base-font-family: 'Montserrat', serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.7;
+
+$alt-font-family: 'Montserrat', serif;
+
+$header-font-family: 'Montserrat', serif;
+
+$spacing-unit:     4rem;
+
+$color-black:      rgba(40,40,40,0.9);
+$color-white:      rgba(254,254,254,1);
+$color-off-white:  rgba(240,240,240,.95);
+$color-brand:      rgba(34,45,105,1);
+$color-brand-alt:  rgb(30, 43, 119);
+$color-transparent:rgba(0,0,0,0);
+$color-grey:       rgba(200,200,200,1);
+$color-grey-light: lighten($color-grey, 10%);
+$color-grey-dark:  darken($color-grey, 20%);
+
+$box-shadow: 0px 0px 15px rgba(0,0,0,0.15), 0px 0px 4px rgba(0,0,0,0.1);
+$box-shadow-alt: 11px 10px 40px rgba(0,0,0,.2);
+
+$height-bottom: 100;
+$height-middle: 200;
+$height-high: 300;
+$height-top: 1000;
+
+// Width of the content area
+$content-width:    740px;
+$phone:            500px;
+$tablet:           800px;
+$laptop:           1400px;
+$desktop:          1600px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import SCSS
+@import
+"base",
+"animate/animate",
+"animations",
+"layout",
+"blocks",
+"navigation",
+"buttons",
+"footer",
+"forms",
+"util"
+;

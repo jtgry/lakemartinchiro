@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ else }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+
+<meta property="og:title" content="{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }} | Eclectic, Lake Martin, Alex City, Auburn, Montgomery, Alabama">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:image" content="{{ with .Params.image }}/{{ . }}{{ else }}/images/website.jpg{{ end }}">
+<meta property="og:url" content="{{ .URL }}">
+
+{{ template "_internal/google_analytics.html" . }}
+{{ .Hugo.Generator }}

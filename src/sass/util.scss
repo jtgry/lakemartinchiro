@@ -1,0 +1,47 @@
+.hidden{
+  display: none;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.center-text{
+  text-align: center;
+}
+.vertical{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.wrapper{
+  width: 90%;
+  padding: 0 5%;
+}
+#map {
+  width: 100%;
+  height: 60vh;
+}
+.brand-bg{
+  background-color: rgba( $color-brand, .7 );
+}
+.brand-bg-alt{
+  background-color: rgba( $color-brand-alt, .7 );
+}
+.cover{
+  position: fixed;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: $color-white;
+  z-index: 2000;
+}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ block "page-header" . }}{{ partial "site/page-header.html" . }}{{ end }}
+<article class="page">
+  <div class="container">
+    {{ range .Paginator.Pages }}
+      <div class="post">
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          {{ .Content }}
+      </div>
+    {{ end }}
+
+    {{ template "_internal/pagination.html" . }}
+  </div>
+</article>
+
+{{ end }}

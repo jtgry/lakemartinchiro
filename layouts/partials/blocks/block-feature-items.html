@@ -1,0 +1,22 @@
+<section class="block-feature" alt="{{ .Title }}" style="background-image:linear-gradient(rgba(157,203,208,.95), rgba(157,203,208,.95)), url(images-resized/medium/{{ .Params.image }});">
+    <div class="vertical">
+      <div class="block-feature-content">
+        <div class="wrapper">
+          {{ range .Params.items }}
+            <div class="block-feature-item">
+              <div class="container">
+                  <h2>{{ .title }}</h2>
+                  <ul>
+                    <li>Item 1</li>
+                    <li>Item 2 </li>
+                    <li>Item 3</li> 
+                    <li>Item 4</li>
+                  </ul>
+              </div>
+              <a href="" class="fancy-button bg2"><span>Learn More</span></a>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>
