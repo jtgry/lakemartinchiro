@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ block "page-hero" . }}{{ partial "page-hero" . }}{{end}}
+
+{{- range .Params.blocks -}}
+{{- if eq .template "block-steps" -}}{{ partial "blocks/block-steps" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-expanded" -}}{{ partial "blocks/block-expanded" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-calltoaction" -}}{{ partial "blocks/block-calltoaction" (dict "Params" .) }}{{- end -}}
+{{- end -}}
+
+<!-- Page content -->
+<div class="page">
+		<div class="container">
+			<div class="page__main">
+				<div class="text-container">
+					<h3 class="page__main__title">Page Not Found!</h3>
+					<p>The page you requested could not be found.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{{end}}
