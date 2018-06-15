@@ -2,11 +2,15 @@ form{
 	margin-bottom: 1.5em;
 	
 	.double{
+		@include desktop{
 		display: flex;
 		justify-content: space-between;
-
+		}
 		.half {
-			max-width: 48%;
+			@include desktop{
+				max-width: 48%;
+			}
+			width: 100%;
 		}
 	}
 }
