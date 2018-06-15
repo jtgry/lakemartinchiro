@@ -1,11 +1,2 @@
-/public
-/node_modules
-
-/static/images
-/static/fonts
-/static/css/app.css
-/static/js/app.js
-
-/.vscode
-
-*.afdesign
+node_modules/
+dist/

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+  <title>{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }}</title>
+
+  {{ block "meta" . }}{{ partial "meta" . }}{{end}}
+
+  {{ range .AlternativeOutputFormats }}
+      <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  {{ end }}
+
+  {{ block "styles" . }}{{ partial "styles" . }}{{end}}
+	
+</head>
+<body id="page">
+
+  {{ block "navigation" . }}{{ partial "navigation" . }}{{end}}
+
+  {{ block "main" . }}{{end}}
+
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+  
+  {{ block "scripts" . }}{{ partial "scripts" . }}{{end}}
+
+</body>
+</html>

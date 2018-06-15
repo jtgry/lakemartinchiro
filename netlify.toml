@@ -1,13 +1,6 @@
 [build]
-    command = "npm run build"
-    publish = "public"
-
-[build.environment]
-    HUGO_VERSION = "0.38.1"
-
-[context.production.environment]
-    HUGO_ENV = "production"
-    NODE_ENV = "production"
+  command = "npm run build"
+  publish = "dist"
 
 [context.deploy-preview]
-    command = "npm run build:preview"
+  command = "npm run build-preview"

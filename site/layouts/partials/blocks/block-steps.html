@@ -1,0 +1,26 @@
+  <!-- Steps -->
+  <div id="steps" class="steps landing__section">
+		<div class="container">
+			{{- with .Params.heading -}}
+			<h2>{{ markdownify . }}</h2>
+			{{ end }}
+      {{- with .Params.content -}}
+      <p>{{ markdownify . }}</p>
+      {{ end }}
+		</div>
+		{{- if .Params.items -}}
+		<div class="container">
+			<div class="steps__inner">
+				{{ range .Params.items }}
+					<div class="step">
+						<div class="step__media">
+							<img src="/{{ .image }}" class="step__image">
+						</div>
+						<h4>{{ .name }}</h4>
+						<p class="step__text">{{ .content }}</p>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+		{{ end }}
+	</div>

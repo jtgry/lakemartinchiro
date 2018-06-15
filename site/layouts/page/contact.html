@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ block "page-hero" . }}{{ partial "page-hero" . }}{{end}}
+<div class="page">
+  <div class="form" method="post" action="/thanks/" name="contact" netlify-honeypot="bot-field" data-netlify="true">
+    <div class="container">
+      <form>
+        <div class="double">
+          <div class="half">
+            <label for="first">First Name</label>
+            <input type='text' placeholder="Type..." name="first" id="first" required>
+          </div>
+          <div class="half">
+            <label for="last">Last Name</label>
+            <input type='text' placeholder="Type..." name="last" id="last" required>
+          </div>
+        </div>
+        <div class="double">
+          <div class="half">
+            <label for="email">Email</label>
+            <input type='email' placeholder="Type..." name="email" id="email" required>
+          </div>
+          <div class="half">
+            <label for="phone">Phone</label>
+            <input type='text' placeholder="Type..." name="phone" id="phone" required>
+          </div>
+        </div>
+        <label for='message'>Message</label>
+        <textarea placeholder="Hello..." id='message'></textarea>
+        <div class="double">
+          <div class="half">
+            <input type="checkbox" id="check" required />
+            <label for="check">By checking this box you agree that we can contact you via phone or electronic means.</label>
+          </div>
+          <div class="half">
+            <p netlify-recaptcha></p>
+          </div>
+        </div>
+        <button class="button button__primary" type="submit" value="send" disabled="true">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+{{ end }}

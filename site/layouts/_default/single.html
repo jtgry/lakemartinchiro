@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ block "page-hero" . }}{{ partial "page-hero" . }}{{end}}
+
+{{- range .Params.blocks -}}
+{{- if eq .template "block-steps" -}}{{ partial "blocks/block-steps" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-expanded" -}}{{ partial "blocks/block-expanded" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-calltoaction" -}}{{ partial "blocks/block-calltoaction" (dict "Params" .) }}{{- end -}}
+{{- end -}}
+
+<!-- Page content -->
+<div class="page">
+		<div class="container">
+			<div class="page__main">
+				<div class="text-container">
+					<h3 class="page__main__title">This is the main area</h3>
+					<p>Write or do whatever you want here!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{{end}}

@@ -1,0 +1,37 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Lake Martin Chiro"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+# Site Params
+[params]
+description = "At Lake Martin Chiropractic we know that patient relationships are important. Our staff always puts the needs and wellbeing of our patients first. We strive to offer affordable healthcare, and to serve the needs of patients so they can enjoy life without restrictions."
+facebook = ""
+instagram = ""
+pinterest = ""
+
+# Main Menu
+[[menu.main]]
+  name = "First Visit"
+  weight = 1
+  url = "/first-visit/"
+
+[[menu.main]]
+  name = "Dr. Peaden"
+  weight = 2
+  url = "/dr-peaden/"
+
+[[menu.main]]
+  name = "Care Team"
+  weight = 3
+  url = "/your-care-team/"
+
+[[menu.main]]
+  name = "Our Services"
+  weight = 4
+  url = "/our-services/"
