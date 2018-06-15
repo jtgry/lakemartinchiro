@@ -33,6 +33,28 @@
 	}
 }
 
+.footer__imageLogo{
+	flex-shrink: 0;
+	padding-right: 16pt;
+	display: block;
+	cursor: pointer;
+	min-width: 33%;
+	margin-bottom: 1.5rem;
+
+	@include tablet{
+		margin-bottom: 0;
+	}
+	
+	@include desktop{
+		min-width: 25%;
+		font-size: 1.325rem;
+	}
+
+	img{
+		max-width: 150px;
+	}
+}
+
 .footer__data{
 	display: flex;
 	flex-grow: 1;

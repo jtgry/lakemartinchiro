@@ -2,35 +2,46 @@
 <div class="footer footer--dark">
   <div class="container">
     <div class="footer__inner">
-      <a href="index.html" class="footer__textLogo">{{ .Site.Title }}</a>
+      <a href="/" class="footer__imageLogo" alt="Logo for {{ .Site.Title }}">
+        <img src="/images/logo-large.svg">
+      </a>
       <div class="footer__data">
         <div class="footer__data__item">
-          <div class="footer__row">
-            Created by <a href="https://twitter.com/ninalimpi" target="_blank" class="footer__link">Katerina Limpitsouni</a>
-          </div>
-          <div class="footer__row">
-          Code/design by <a href="https://twitter.com/anges244" target="_blank" class="footer__link">Aggelos Gesoulis</a>
-          </div>
+          <b>Contact</b>
+          <p><a href="https://goo.gl/maps/GoRK7uKW58M2">8341 Kowaliga Road <br> Eclectic, AL 36024 <br></a> <a href="tel:3344582633">334-458-2633</a></p>
         </div>
         <div class="footer__data__item">
-          <div class="footer__row">Created for <a href="https://undraw.co" target="_blank" class="footer__link">unDraw</a>
+          <div class="footer__row">
+            <b>Monday - Thurdsay</b>
+            <p>8:00 AM - 12:00 PM | 2:00 PM - 5:30 PM</p>
           </div>
-          <div class="footer__row">Special thx to <a href="https://shareboost.co" target="_blank" class="footer__link">ShareBoost</a> for the support
+          <div class="footer__row">
+            <b>Friday</b>
+            <p>8:00 AM - 12:00 PM</p>
           </div>
+          <div class="footer__row">
+              <b>Saturday - Sunday </b>
+              <p>Closed</p>
+            </div>
         </div>
         <div class="footer__data__item">
+        <b>Connect</b>
+        <p></p>
+        {{ with .Site.Params.facebook }}
         <div class="footer__row">
-          <a href="https://github.com/anges244/evie" target="_blank" class="footer__link">GitHub</a>
+          <a href="{{ . }}" target="_blank" class="footer__link">Facebook</a>
         </div>
+        {{ end }}
+        {{ with .Site.Params.instagram }}
         <div class="footer__row">
-          <a href="https://twitter.com/undraw_co" target="_blank" class="footer__link">Twitter</a>
+          <a href="{{ . }}" target="_blank" class="footer__link">Instagram</a>
         </div>
+        {{ end }}
+        {{ with .Site.Params.email }}
         <div class="footer__row">
-          <a href="https://www.facebook.com/undraw.co/" target="_blank" class="footer__link">Facebook</a>
+          <a href="mailto:{{ . }}" target="_blank" class="footer__link">Email</a>
         </div>
-        <div class="footer__row">
-          <a href="./additional.html" class="footer__link">MIT license</a>
-        </div>
+        {{ end }}
       </div>
     </div>
   </div>

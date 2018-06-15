@@ -11,9 +11,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 # Site Params
 [params]
 description = "At Lake Martin Chiropractic we know that patient relationships are important. Our staff always puts the needs and wellbeing of our patients first. We strive to offer affordable healthcare, and to serve the needs of patients so they can enjoy life without restrictions."
-facebook = ""
-instagram = ""
-pinterest = ""
+facebook = "https://www.facebook.com/Lake-Martin-Chiropractic-Health-Center-126017201362305/"
+instagram = "https://www.instagram.com/lakemartinchiropractic/"
+email = "lakemartinchiro@gmail.com"
 
 # Main Menu
 [[menu.main]]
