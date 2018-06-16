@@ -22,7 +22,7 @@ fields:
   name: blocks
   label: Blocks
   template_types:
-  - block-extended
+  - block-expanded
   - block-steps
 pages:
 - site/content/_index.md
