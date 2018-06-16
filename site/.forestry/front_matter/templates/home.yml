@@ -21,6 +21,8 @@ fields:
 - type: blocks
   name: blocks
   label: Blocks
-  template_types: []
+  template_types:
+  - block-steps
+  - block-expanded
 pages:
 - site/content/_index.md
