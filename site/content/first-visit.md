@@ -16,6 +16,10 @@ blocks:
   - template: block-item
     name: Cool thing 3
     content: really cool stuff
+menu:
+  main:
+    name: First Visit
+    weight: 1
 
 ---
 Dr. Peaden passionately emphasizes patient education, giving his patients the necessary knowledge and confidence to be proactive in their recovery to optimal health and prevent future injury.

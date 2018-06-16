@@ -1,37 +1,22 @@
 baseurl = "/"
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 languageCode = "en-us"
 languageLang = "en"
 title = "Lake Martin Chiro"
-
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-
-# Site Params
+[[menu.main]]
+name = "Our Services"
+url = "/our-services/"
+weight = 4
+[[menu.main]]
+name = "Care Team"
+url = "/your-care-team/"
+weight = 3
+[[menu.main]]
+name = "Dr. Peaden"
+url = "/dr-peaden/"
+weight = 2
 [params]
 description = "At Lake Martin Chiropractic we know that patient relationships are important. Our staff always puts the needs and wellbeing of our patients first. We strive to offer affordable healthcare, and to serve the needs of patients so they can enjoy life without restrictions."
+email = "lakemartinchiro@gmail.com"
 facebook = "https://www.facebook.com/Lake-Martin-Chiropractic-Health-Center-126017201362305/"
 instagram = "https://www.instagram.com/lakemartinchiropractic/"
-email = "lakemartinchiro@gmail.com"
-
-# Main Menu
-[[menu.main]]
-  name = "First Visit"
-  weight = 1
-  url = "/first-visit/"
-
-[[menu.main]]
-  name = "Dr. Peaden"
-  weight = 2
-  url = "/dr-peaden/"
-
-[[menu.main]]
-  name = "Care Team"
-  weight = 3
-  url = "/your-care-team/"
-
-[[menu.main]]
-  name = "Our Services"
-  weight = 4
-  url = "/our-services/"
