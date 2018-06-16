@@ -11,3 +11,6 @@ fields:
 - type: file
   name: image
   label: image
+- type: blocks
+  name: items
+  label: Items
