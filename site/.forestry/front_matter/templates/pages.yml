@@ -21,3 +21,5 @@ fields:
   template_types:
   - block-steps
   - block-extended
+pages:
+- site/content/first-visit.md
