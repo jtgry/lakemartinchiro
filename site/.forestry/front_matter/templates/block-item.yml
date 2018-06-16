@@ -1,0 +1,13 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: Name
+  name: name
+- type: textarea
+  name: content
+  label: Content
+- type: file
+  name: image
+  label: Image
