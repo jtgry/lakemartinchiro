@@ -7,7 +7,9 @@
       <div class="page__header__content">
         <div class="page__header__content__inner" id='navConverter'>
           <h1 class="page__header__title">{{ .Title }}</h1>
-          <p class="page__header__text">This is mostly a simple layout, rather than a complete page unlike the others. However this is a really useful starting point for anything you want to create.</p>
+          {{ with .Params.subtitle }}
+          <p class="page__header__text">{{ . }}</p>
+          {{ end }}
         </div>
       </div>
     </div>
