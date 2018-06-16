@@ -20,6 +20,6 @@ fields:
   label: Blocks
   template_types:
   - block-steps
-  - block-extended
+  - block-expanded
 pages:
 - site/content/first-visit.md
