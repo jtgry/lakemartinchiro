@@ -2,18 +2,22 @@
 title: Home
 image: images/chiro.jpg
 logo: images/logo-large.svg
+type: page
 blocks:
 - template: block-steps
   heading: Welcome To Lake Martin Chiropractic
   content: Here's who we can think of, but surely creative people will surprise us.
   items:
-  - name: Lake Martin Chiro
+  - template: block-item
+    name: Lake Martin Chiro
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: images/chiro-table.svg
-  - name: Lake Martin Chiro
+  - template: block-item
+    name: Lake Martin Chiro
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: images/chiro-back.svg
-  - name: Lake Martin Chiro
+  - template: block-item
+    name: Lake Martin Chiro
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: images/chiro-spine.svg
 - template: block-expanded
@@ -43,6 +47,6 @@ blocks:
   content: At Lake Martin Chiropractic we know that patient relationships are important.
   button_text: Make Appointment
   button_url: "/contact"
-type: page
+
 
 ---

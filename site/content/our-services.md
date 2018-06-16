@@ -8,13 +8,16 @@ blocks:
   heading: "Some Of Our Services"
   content: "Here's who we can think of, but surely creative people will surprise us."
   items:
-  - name: Chiropractic Manipulation & Adjustments
+  - template: block-item
+    name: Chiropractic Manipulation & Adjustments
     content: "At Lake Martin Chiropractic we know that patient relationships are important."
     image: "images/chiro-table.svg"
-  - name: Electrical Stimulation
+  - template: block-item
+    name: Electrical Stimulation
     content: "At Lake Martin Chiropractic we know that patient relationships are important."
     image: "images/chiro-back.svg"
-  - name: Decompression
+  - template: block-item
+    name: Decompression
     content: "At Lake Martin Chiropractic we know that patient relationships are important."
     image: "images/chiro-adjustment.svg"
 
