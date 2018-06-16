@@ -60,3 +60,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- site/content/_index.md
