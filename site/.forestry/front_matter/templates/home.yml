@@ -15,11 +15,9 @@ fields:
 - type: file
   name: image
   label: Image
-- name: logo
+- type: file
   label: Logo
-  type: text
-  hidden: false
-  default: ''
+  name: logo
 - name: blocks
   label: Blocks
   type: field_group_list
