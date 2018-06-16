@@ -11,7 +11,7 @@ blocks:
   - template: block-item
     name: Lake Martin Chiro
     content: At Lake Martin Chiropractic we know that patient relationships are important.
-    image: uploads/chiro-back.svg
+    image: uploads/chiro-backbone.svg
   - template: block-item
     name: Lake Martin Chiro
     content: At Lake Martin Chiropractic we know that patient relationships are important.
