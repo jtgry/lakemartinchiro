@@ -1,0 +1,17 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: heading
+  label: Heading
+  config:
+    required: true
+- type: textarea
+  name: content
+  label: Content
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
