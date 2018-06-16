@@ -1,0 +1,15 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: heading
+  label: Heading
+- type: textarea
+  name: content
+  label: Content
+- type: file
+  label: Image
+  name: image
+  config:
+    maxSize: '4'
