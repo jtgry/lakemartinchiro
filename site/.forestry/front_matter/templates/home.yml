@@ -18,47 +18,11 @@ fields:
 - type: file
   label: Logo
   name: logo
-- name: blocks
+- type: blocks
+  name: blocks
   label: Blocks
-  type: field_group_list
-  fields:
-  - name: template
-    label: Template
-    type: text
-    hidden: false
-    default: ''
-  - name: heading
-    label: Heading
-    type: text
-    hidden: false
-    default: ''
-  - name: content
-    label: Content
-    type: text
-    hidden: false
-    default: ''
-  - name: items
-    label: Items
-    type: field_group_list
-    fields:
-    - name: name
-      label: Name
-      type: text
-      hidden: false
-      default: ''
-    - name: content
-      label: Content
-      type: text
-      hidden: false
-      default: ''
-    - name: image
-      label: Image
-      type: file
-      hidden: false
-      default: ''
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
+  template_types:
+  - block-extended
+  - block-steps
 pages:
 - site/content/_index.md
