@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				// If the anchor exists
 				if (dataTarget) {
 					// Scroll to the anchor
-					smoothScroll(dataTarget, dataSpeed || 700);
+					smoothScroll(dataTarget, dataSpeed || 400);
 				}
 			}, false);
 		});
@@ -2442,14 +2442,17 @@ window.onload = function () {
 	// Customizing a reveal set
 	sr.reveal('.expanded__media', { 
 		duration: 800,
+		delay: 100,
 		distance: '50px'
 	});
 	sr.reveal('.expanded__content', { 
 		duration: 1000,
+		delay: 100,
 		distance: '50px'
 	});
 	sr.reveal('.cta__inner', { 
-		duration: 800
+		duration: 800,
+		delay: 100
 	});
 	
 	sr.reveal('.step', { duration: 1000 }, 50);

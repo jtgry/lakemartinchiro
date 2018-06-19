@@ -6,7 +6,7 @@ image: "images/chiro.jpg"
 blocks:
 - template: "block-steps"
   heading: "Some Of Our Services"
-  content: "Here's who we can think of, but surely creative people will surprise us."
+  content: "At Lake Martin Chiropractic we know that patient relationships are important."
   items:
   - template: block-item
     name: Chiropractic Manipulation & Adjustments
