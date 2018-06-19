@@ -16,9 +16,11 @@ import tildeImporter from "node-sass-tilde-importer";
 import autoprefixer from "gulp-autoprefixer";
 import size from "gulp-size";
 import newer from "gulp-newer";
-
+import googleWebFonts from "gulp-google-webfonts";
 
 const browserSync = BrowserSync.create();
+
+var options = { };
 
 // Hugo arguments
 const hugoArgsDefault = ["-d", "../dist", "-s", "site", "-v"];
@@ -29,12 +31,12 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Run server tasks
-gulp.task("server", ["hugo", "sass", "js", "fonts", "images"], (cb) => runServer(cb));
-gulp.task("server-preview", ["hugo-preview", "sass", "js", "fonts", "images"], (cb) => runServer(cb));
+gulp.task("server", ["hugo", "sass", "js", "google-fonts", "fonts", "images"], (cb) => runServer(cb));
+gulp.task("server-preview", ["hugo-preview", "sass", "js", "google-fonts", "fonts", "images"], (cb) => runServer(cb));
 
 // Build/production tasks
-gulp.task("build", ["sass", "js", "fonts", "images"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["sass", "js", "fonts", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["sass", "js", "google-fonts", "fonts", "images"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["sass", "js", "google-fonts", "fonts", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
@@ -79,6 +81,13 @@ gulp.task("js", (cb) => {
     cb();
   });
 });
+
+//Download Google Fonts
+gulp.task('google-fonts', () => (
+  gulp.src('./fonts.list')
+    .pipe(googleWebFonts(options))
+    .pipe(gulp.dest('./src/fonts/'))
+));
 
 // Move all fonts in a flattened directory
 gulp.task('fonts', () => (
