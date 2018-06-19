@@ -8,11 +8,13 @@
 @import "base/globals";
 @import "base/containers";
 @import "utils/helpers";
+@import "animate/animate";
 
 // Elements
 @import "elements/typography";
 @import "elements/buttons";
 @import "elements/forms";
+@import "elements/animations";
 
 // Components
 @import "components/landing";

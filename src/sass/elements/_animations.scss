@@ -1,0 +1,56 @@
+/**
+ * Animations
+ */
+.load{
+  @include fadeIn(
+    $delay: .4s
+  )
+}
+
+.fade-in{
+  @include fadeIn(
+    $delay: .8s
+  )
+}
+.fade-in-slow{
+  @include fadeIn(
+    $delay: 1s
+  );
+}
+.fade-in-slower{
+  @include fadeIn(
+    $delay: 1.2s
+  );
+}
+.fade-in-slowest{
+  @include fadeIn(
+    $delay: 1.8s
+  );
+}
+
+.fade-in-up{
+  @include fadeInUp(
+    $delay: .8s
+  );
+}
+.fade-in-up-slow{
+  @include fadeInUp(
+    $delay: 1s
+  );
+}
+.fade-in-up-slower{
+  @include fadeInUp(
+    $delay: 1.2s
+  );
+}
+.fade-in-up-slowest{
+  @include fadeInUp(
+    $delay: 1.8s
+  );
+}
+
+.fade-out{
+  @include fadeOut(
+    $delay: .8s
+  );
+}
