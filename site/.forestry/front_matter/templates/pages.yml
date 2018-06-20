@@ -7,6 +7,10 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: text
+  default: ''
+  label: Subtitle
+  name: subtitle
 - name: type
   label: Type
   type: text
