@@ -3,7 +3,24 @@ title: Your First Visit
 image: images/chiro.jpg
 type: page
 blocks:
+- template: block-expanded
+  content: |-
+    One of the best things about receiving chiropractic adjustments is that they are a completely drug-free path to healing the body naturally. Chiropractic benefits including helping to naturally improve problems such as:
 
+    * Back pain
+    * Headaches
+    * Bowel regularity
+    * Improved mental clarity
+    * Ear infections
+    * Neck pain
+    * Arthritis and joint pain
+    * Scoliosis
+    * Asthma
+    * Blood pressure
+    * Healthy pregnancy
+    * Organ function
+    * Surgery prevention
+  heading: 'Chiropractic Benefits '
 menu:
   main:
     name: First Visit
