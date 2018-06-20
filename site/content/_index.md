@@ -12,7 +12,7 @@ blocks:
     enjoy life without restrictions. '
   items:
   - template: block-item
-    name: Lake Martin Chiro
+    name: Health
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: uploads/chiro-backbone.svg
   - template: block-item
