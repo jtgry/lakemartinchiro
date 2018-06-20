@@ -22,4 +22,5 @@ fields:
   - block-steps
   - block-expanded
 pages:
+- site/content/thanks.md
 - site/content/first-visit.md
