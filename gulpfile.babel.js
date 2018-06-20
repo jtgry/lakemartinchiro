@@ -17,8 +17,6 @@ import autoprefixer from "gulp-autoprefixer";
 import size from "gulp-size";
 import newer from "gulp-newer";
 import googleWebFonts from "gulp-google-webfonts";
-import htmlmin from "gulp-htmlmin";
-import runSequence from 'run-sequence'
 
 const browserSync = BrowserSync.create();
 
@@ -33,19 +31,13 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Run server tasks
-gulp.task("server", () => {
-  runSequence(["hugo", "sass", "js", "google-fonts", "images"], ["minify", "fonts"], (cb) => runServer(cb));
-}) 
-gulp.task("server-preview", () => {
-  runSequence(["hugo-preview", "sass", "js", "google-fonts", "images"], ["minify", "fonts"], (cb) => runServer(cb));
-}) 
+gulp.task("server", ["hugo", "sass", "js", "google-fonts", "fonts", "images"], (cb) => runServer(cb));
+gulp.task("server-preview", ["hugo-preview", "sass", "js", "google-fonts", "fonts", "images"], (cb) => runServer(cb));
+
 // Build/production tasks
-gulp.task("build", () => {
-  runSequence(["sass", "js", "google-fonts", "images"], ["minify", "fonts"], "hugo");
-}) 
-gulp.task("build-preview", () => {
-  runSequence(["sass", "js", "google-fonts", "images"], ["minify", "fonts"], "hugo-preview");
-}) 
+gulp.task("build", ["sass", "js", "google-fonts", "fonts", "images"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["sass", "js", "google-fonts", "fonts", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+
 // Compile CSS with PostCSS
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
