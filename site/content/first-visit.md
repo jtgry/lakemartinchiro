@@ -21,6 +21,7 @@ blocks:
     * Organ function
     * Surgery prevention
   heading: 'Chiropractic Benefits '
+  image: uploads/chiro-alignment.svg
 menu:
   main:
     name: First Visit
