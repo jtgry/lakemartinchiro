@@ -41,10 +41,10 @@ gulp.task("server-preview", () => {
 }) 
 // Build/production tasks
 gulp.task("build", () => {
-  runSequence(["sass", "js", "google-fonts", "images"], ["minify", "fonts"], (cb) => buildSite(cb, [], "production"));
+  runSequence(["sass", "js", "google-fonts", "images"], ["minify", "fonts"], "hugo");
 }) 
 gulp.task("build-preview", () => {
-  runSequence(["sass", "js", "google-fonts", "images"], ["minify", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+  runSequence(["sass", "js", "google-fonts", "images"], ["minify", "fonts"], "hugo-preview");
 }) 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
