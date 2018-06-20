@@ -17,6 +17,7 @@ import autoprefixer from "gulp-autoprefixer";
 import size from "gulp-size";
 import newer from "gulp-newer";
 import googleWebFonts from "gulp-google-webfonts";
+import htmlmin from "gulp-htmlmin";
 
 const browserSync = BrowserSync.create();
 
@@ -31,12 +32,12 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Run server tasks
-gulp.task("server", ["hugo", "sass", "js", "google-fonts", "fonts", "images"], (cb) => runServer(cb));
-gulp.task("server-preview", ["hugo-preview", "sass", "js", "google-fonts", "fonts", "images"], (cb) => runServer(cb));
+gulp.task("server", ["hugo", "sass", "js", "google-fonts", "fonts", "images", "minify"], (cb) => runServer(cb));
+gulp.task("server-preview", ["hugo-preview", "sass", "js", "google-fonts", "fonts", "images", "minify"], (cb) => runServer(cb));
 
 // Build/production tasks
-gulp.task("build", ["sass", "js", "google-fonts", "fonts", "images"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["sass", "js", "google-fonts", "fonts", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["sass", "js", "google-fonts", "fonts", "images", "minify"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["sass", "js", "google-fonts", "fonts", "images", "minify"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
@@ -82,7 +83,7 @@ gulp.task("js", (cb) => {
   });
 });
 
-//Download Google Fonts
+// Download Google Fonts
 gulp.task('google-fonts', () => (
   gulp.src('./fonts.list')
     .pipe(googleWebFonts(options))
@@ -95,6 +96,13 @@ gulp.task('fonts', () => (
     .pipe(flatten())
     .pipe(gulp.dest("./dist/fonts"))
     .pipe(browserSync.stream())
+));
+
+// Minify HTML
+gulp.task('minify', () => (
+  gulp.src('./dist/*.html')
+      .pipe(htmlmin({collapseWhitespace: true}))
+      .pipe(gulp.dest('./dist'))
 ));
 
 // Development server with browsersync

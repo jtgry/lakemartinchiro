@@ -35,6 +35,7 @@
     "gulp-babel": "^7.0.1",
     "gulp-flatten": "^0.4.0",
     "gulp-google-webfonts": "^1.1.1",
+    "gulp-htmlmin": "^4.0.0",
     "gulp-newer": "^1.4.0",
     "gulp-postcss": "^7.0.1",
     "gulp-print": "^5.0.0",
