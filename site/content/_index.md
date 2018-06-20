@@ -6,8 +6,8 @@ type: page
 blocks:
 - template: block-steps
   heading: Welcome to Lake Martin Chiropractic Health Center
-  content: 'At Lake Martin Chiropractic we know that patient relationships are important.
-    Our staff always puts the needs and wellbeing of our patients first. We strive
+  content: 'At Lake Martin Chiropractic we know that patient relationships are important,
+    and our staff always puts the needs and wellbeing of our patients first. We strive
     to offer affordable healthcare, and to serve the needs of patients so they can
     enjoy life without restrictions. '
   items:
