@@ -5,8 +5,11 @@ logo: images/logo-large.svg
 type: page
 blocks:
 - template: block-steps
-  heading: Welcome To Lake Martin Chiropractic
-  content: At Lake Martin Chiropractic we know that patient relationships are important.
+  heading: Welcome to Lake Martin Chiropractic Health Center
+  content: 'At Lake Martin Chiropractic we know that patient relationships are important.
+    Our staff always puts the needs and wellbeing of our patients first. We strive
+    to offer affordable healthcare, and to serve the needs of patients so they can
+    enjoy life without restrictions. '
   items:
   - template: block-item
     name: Lake Martin Chiro
@@ -21,7 +24,7 @@ blocks:
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: images/chiro-spine.svg
 - template: block-expanded
-  heading: Enjoy Life without restrictions
+  heading: Enjoy Life without restrictions.
   content: At Lake Martin Chiropractic we know that patient relationships are important.
     Our staff always puts the needs and wellbeing of our patients first. We strive
     to offer affordable healthcare, and to serve the needs of patients so they can
