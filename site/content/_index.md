@@ -1,7 +1,7 @@
 ---
 title: Home
 image: uploads/_DSC0522.jpg
-logo: images/logo-large.svg
+logo: uploads/logo-large.svg
 type: page
 blocks:
 - template: block-steps
