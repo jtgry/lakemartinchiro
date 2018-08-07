@@ -1,6 +1,6 @@
 ---
 title: Home
-image: images/chiro.jpg
+image: uploads/_DSC0501.jpg
 logo: images/logo-large.svg
 type: page
 blocks:
