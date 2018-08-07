@@ -1,6 +1,6 @@
 ---
 title: Home
-image: uploads/_DSC0522.jpg
+image: uploads/_DSC0147.jpg
 logo: uploads/logo-large.svg
 type: page
 blocks:
