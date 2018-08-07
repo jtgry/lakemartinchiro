@@ -22,7 +22,3 @@ fields:
   - block-item
   - block-steps
   - block-expanded
-pages:
-- site/content/thanks.md
-- site/content/your-care-team.md
-- site/content/first-visit.md
