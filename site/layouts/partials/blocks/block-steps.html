@@ -12,10 +12,9 @@
 		<div class="container">
 			<div class="steps__inner">
 				{{ range .Params.items }}
-				{{ $image := (resources.Get .image).Fill "600x500" }}
 					<div class="step">
 						<div class="step__media">
-							<img src="{{ $image.RelPermalink }}" class="step__image" alt="{{ .name }}">
+							<img src="/{{ .image }}" class="step__image" alt="{{ .name }}">
 						</div>
 						<h4>{{ .name }}</h4>
 						<p class="step__text">{{ .content }}</p>

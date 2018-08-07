@@ -1436,12 +1436,12 @@ select {
 .hero {
   position: relative;
   width: 100%;
-  background-image: url("../images/evie_default_bg.jpeg");
   -webkit-box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
           box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #ffffff; }
   .hero__inner {
     position: relative;
@@ -1897,6 +1897,7 @@ select {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 100%; }
 
 .page__header__inner {
@@ -1914,7 +1915,8 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 82pt 0;
+  min-height: calc( 70vh - 50px);
+  padding: calc( 102px) 0;
   overflow: auto; }
   .page__header__content__inner {
     width: 100%;

@@ -1,6 +1,11 @@
 <!-- Hero unit -->
+{{ if .Params.image }}
 {{ $image := (resources.Get .Params.image).Fill "2000x1168" }}
 <div class="page__header" style="background-image:url({{ $image.RelPermalink }});">
+{{ else }}
+
+<div class="page__header" style="background-image:url();">
+{{ end }}
   <div class="hero__overlay hero__overlay--gradient"></div>
   <div class="page__header__inner">
     <div class="container">

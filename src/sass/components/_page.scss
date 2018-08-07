@@ -5,6 +5,7 @@
 	background-size: cover; 
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	width: 100%;
 }
 
@@ -18,7 +19,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 82pt 0;
+	min-height: calc( 70vh - 50px );
+	padding: calc( #{$navbar-height + 24pt}) 0; // Padding added to avoid overlapping with fixed navigation bars
 	overflow: auto;
 	
 	// This div allows normal behaviors for contained elements instead of flexbox aligning them 

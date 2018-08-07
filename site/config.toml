@@ -3,6 +3,11 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 languageCode = "en-us"
 languageLang = "en"
 title = "Lake Martin Chiro"
+enableRobotsTXT = true
+assetDir = "static"
+[imaging]
+quality = 90
+
 [[menu.main]]
 name = "Our Services"
 url = "/our-services/"
