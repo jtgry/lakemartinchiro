@@ -1,7 +1,7 @@
 ---
-title: "Contact Us"
-draft: false
+title: Contact Us
 type: page
 layout: contact
-image: "images/chiro.jpg"
+image: uploads/_DSC0382.jpg
+
 ---
