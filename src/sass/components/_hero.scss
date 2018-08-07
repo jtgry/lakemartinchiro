@@ -5,7 +5,10 @@
 	background-size: cover; 
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
+	@include desktop{
+		background-attachment: fixed;
+	}
 	color: $hero-color;
 
 	&__inner{
