@@ -1,13 +1,13 @@
 ---
 title: Your Care Team
-image: images/chiro.jpg
+image: uploads/_DSC0147.jpg
 subtitle: ''
 blocks:
 - template: block-steps
   items:
   - template: block-item
     name: Dr. Peaden
-    image: uploads/chiro-table.svg
+    image: uploads/_DSC0118.jpg
     content: Dr. Peaden passionately emphasizes patient education, giving his patients
       the necessary knowledge and confidence to be proactive in their recovery to
       optimal health and prevent future injury.
