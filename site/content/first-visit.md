@@ -1,6 +1,6 @@
 ---
 title: Your First Visit
-image: uploads/_DSC0380.jpg
+image: uploads/_DSC0339.jpg
 type: page
 blocks:
 - template: block-expanded
@@ -22,11 +22,11 @@ blocks:
     * Surgery prevention
   heading: 'Chiropractic Benefits '
   image: uploads/chiro-alignment.svg
+subtitle: ''
 menu:
   main:
     name: First Visit
     weight: 1
-subtitle: ''
 
 ---
 Dr. Peaden passionately emphasizes patient education, giving his patients the necessary knowledge and confidence to be proactive in their recovery to optimal health and prevent future injury.
