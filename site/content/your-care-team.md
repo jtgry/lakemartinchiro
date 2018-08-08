@@ -1,6 +1,6 @@
 ---
 title: Your Care Team
-image: uploads/_DSC0367.jpg
+image: uploads/_DSC0433.jpg
 subtitle: ''
 blocks:
 - template: block-steps
