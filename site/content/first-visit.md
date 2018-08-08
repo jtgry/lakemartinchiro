@@ -1,6 +1,6 @@
 ---
 title: Your First Visit
-image: uploads/_DSC0433.jpg
+image: uploads/_DSC0339.jpg
 type: page
 blocks:
 - template: block-expanded
