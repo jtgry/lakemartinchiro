@@ -1,6 +1,6 @@
 ---
 title: Our Services
-image: uploads/_DSC0641.jpg
+image: uploads/_DSC0457.jpg
 blocks:
 - template: block-steps
   heading: Some Of Our Services
