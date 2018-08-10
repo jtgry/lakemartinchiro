@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/thanks/</loc>
+    <lastmod>2018-06-20T03:18:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/dr-peaden/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-06-20T03:18:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/patient-form/</loc>
+  </url>
+  
+  <url>
+    <loc>/our-services/</loc>
+  </url>
+  
+  <url>
+    <loc>/your-care-team/</loc>
+  </url>
+  
+  <url>
+    <loc>/first-visit/</loc>
+  </url>
+  
+</urlset>

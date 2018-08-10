@@ -14,8 +14,17 @@
 				{{ range .Params.items }}
 					<div class="step">
 						<div class="step__media">
-							<img src="/{{ .image }}" class="step__image" alt="{{ .name }}">
+							{{ $image := resources.Get .image }}
+							{{ if in $image.MediaType.Suffixes "svg" }}
+								<img src="{{ $image.RelPermalink }}" class="step__image" alt="">
+							{{ else }}
+								{{ $imagecropped := $image.Fill "600x600 center" }}
+								<img src="{{ $imagecropped.RelPermalink }}" class="step__image rounded" alt="">
+
+							{{ end }}
+
 						</div>
+
 						<h4>{{ .name }}</h4>
 						<p class="step__text">{{ .content }}</p>
 					</div>

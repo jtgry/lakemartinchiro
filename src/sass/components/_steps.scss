@@ -29,16 +29,29 @@
 
 .step__media{
 	margin: 16pt 0;
-
+	position: relative;
 	@include desktop{
 		margin: 32pt 0;
 	}
 }
 
+.step__overlay{
+	position: absolute;
+	height: 30vh;
+	width: 30vh;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	opacity: $hero-color-opacity;
+	z-index: 1;
+	background-color: $primary;
+	@include tablet{
+		max-width:none;
+	}
+}
+
 .step__image{
-	max-height: 100px;
-	max-width: 222px;
-	margin-top: 8pt;
+	height: 30vh;
 	@include noDragging;
 
 	@include tablet{
