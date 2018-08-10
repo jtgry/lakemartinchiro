@@ -16,14 +16,14 @@ blocks:
   - template: block-item
     name: Kristen
     image: uploads/_DSC0092.jpg
-    content: Kristen began working in the medical field in 2008 and has worked in
+    content: "Kristen began working in the medical field in 2008 and has worked in
       OB-GYN, Cardiology, and Family Practice. Kristen grew up in Eclectic, AL, and
       attended Elmore County High School. She enjoys the interaction with patients
       and helping others. Kristen and her family have personally been enjoying the
       benefits of regular chiropractic care. She is excited each day to work with
-      such amazing people. In her off time, she enjoys spending quality time with
+      such amazing people. \n\nIn her off time, she enjoys spending quality time with
       her two boys Trent, and Gabe. She enjoys shopping, wandering around antique
-      stores, watching football (ROLL TIDE!), cooking, and being in the sun.
+      stores, watching football (ROLL TIDE!), cooking, and being in the sun."
   - template: block-item
     name: Jennifer Shows
     image: uploads/_DSC0069.jpg
