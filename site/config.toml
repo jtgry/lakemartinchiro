@@ -5,6 +5,9 @@ languageLang = "en"
 title = "Lake Martin Chiro"
 enableRobotsTXT = true
 assetDir = "static"
+
+googleAnalytics = "UA-123723601-1"
+
 [imaging]
 quality = 90
 
