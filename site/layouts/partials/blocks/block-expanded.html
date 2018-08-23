@@ -3,8 +3,11 @@
   <div class="container">
     <div class="expanded__inner">
       <div class="expanded__media">
-        {{- with .Params.image -}}
-        <img src="/{{ . }}" class="expanded__image">
+        {{ if in $image.MediaType.Suffixes "svg" }}
+          <img src="{{ $image.RelPermalink }}" class="expanded__image" alt="">
+          {{ else }}
+          {{ $imagecropped := $image.Fill "600x600 center" }}
+          <img src="{{ $imagecropped.RelPermalink }}" class="expanded__image" alt="">
         {{ end }}
       </div>
       <div class="expanded__content">
