@@ -3,6 +3,7 @@
   <div class="container">
     <div class="expanded__inner">
       <div class="expanded__media">
+        {{ $image := resources.Get .image }}
         {{ if in $image.MediaType.Suffixes "svg" }}
           <img src="{{ $image.RelPermalink }}" class="expanded__image" alt="">
           {{ else }}
