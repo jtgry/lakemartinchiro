@@ -14,7 +14,7 @@ blocks:
 - template: block-steps
   items:
   - template: block-item
-    name: Kristen
+    name: Kristin
     image: uploads/_DSC0092.jpg
     content: "Kristin began working in the medical field in 2008 and has worked in
       OB-GYN, Cardiology, and Family Practice. Kristin grew up in Eclectic, AL, and
