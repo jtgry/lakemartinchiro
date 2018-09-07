@@ -34,7 +34,7 @@ blocks:
     pain is a very poor indicator of health. In fact, pain and other symptoms frequently
     only appear after a disease or other condition has become advanced."
   image: uploads/_DSC0433-1.jpg
-- template: block-expanded
+- template: block-content
   heading: Corrective & Restorative Care
   content: |-
     Do not be discouraged if you have mild flare-ups in your symptoms on occasion. This is normal. Flare-ups are bound to occur during this phase because your body has not fully healed. Depending on the severity of your injury or condition and how long you have been suffering from it, this phase of your care may last anywhere from a few months to a couple of years.

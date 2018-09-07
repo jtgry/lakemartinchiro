@@ -1,0 +1,13 @@
+  <!-- Content -->
+  <div class="content">
+		<div class="container">
+			<div class="">
+				{{- with .Params.heading -}}
+				<h2>{{ markdownify . }}</h2>
+				{{ end }}
+				{{- with .Params.content -}}
+				{{ markdownify . }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
