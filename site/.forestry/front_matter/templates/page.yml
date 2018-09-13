@@ -20,7 +20,6 @@ fields:
   label: Blocks
   template_types:
   - block-content
-  - block-item
   - block-steps
   - block-expanded
 pages:
