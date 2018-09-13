@@ -15,5 +15,9 @@ heading = "Phase 2: Corrective/Restorative Care"
 image = "uploads/_DSC0401.jpg"
 name = "Phase 2: Corrective/Restorative Care"
 template = "block-content"
+[[blocks]]
+content = "Once your body has fully healed, it is important to come in for periodic adjustments to avoid problems in the future. Usually, this only requires a quick visit to the chiropractor 1-3 times per month, based on your lifestyle and goals. Once your body has fully healed, routine chiropractic care can help ensure that your physical problems do not return and keep your body in optimal condition. Just like continuing an exercise program and eating well in order to sustain the benefits of exercise and proper diet, it is necessary to continue chiropractic care to ensure the health of your musculoskeletal system."
+heading = "Phase 3: Wellness Care/ Healthy Living "
+template = "block-content"
 
 +++
