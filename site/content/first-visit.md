@@ -33,7 +33,7 @@ blocks:
     that there is nothing wrong with them - that they are healthy. Unfortunately,
     pain is a very poor indicator of health. In fact, pain and other symptoms frequently
     only appear after a disease or other condition has become advanced."
-  image: uploads/_DSC0433-1.jpg
+  image: uploads/_DSC0522.jpg
 - template: block-content
   heading: Your First Visit
   content: |-
