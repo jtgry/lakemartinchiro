@@ -49,7 +49,7 @@ blocks:
 
     When you make routine chiropractic care a part of your lifestyle, you avoid many of the aches and pains that so many people suffer through, your joints will last longer, and you will be able to engage in more of the activities you love.
 - template: block-content
-  heading: Examination and Xray Studies
+  heading: Examination and X-ray Studies
   content: "After your consultation, Dr. Peaden, will perform a complete chiropractic
     examination testing your reflexes and flexibility. This exam includes a special
     computerized nerve and muscle scan. This simple but effective test will tell **Dr.
