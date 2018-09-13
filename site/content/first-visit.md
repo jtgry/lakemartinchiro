@@ -63,6 +63,22 @@ blocks:
     In some cases, they can even identify their misalignments and degeneration themselves.
     At the specific periods during the corrective care we do follow up x-rays to confirm
     the **spinal correction**    "
+- template: block-content
+  content: |-
+    Once the information is collected and examinations are performed, Dr. Peaden will give you a detailed report of all findings and answer any questions including: 
+
+    1\.     How can you help me?
+
+    2\.     How often do I need to come in?
+
+    3\.     What will my treatment cost?
+
+    After reviewing your health history, goals, and examining your spine and X-rays, Dr. Peaden will discuss recommendations and notify you if your condition requires care with other providers.   Dr. Peaden will provide the best treatment and wellness program for your needs.
+
+    At the conclusion of this initial appointment, you can choose to experience your first treatment. This may include spinal adjustments, physical therapy, and/or soft tissue massage.  Treatment is interactive, so you can express concerns about the different styles of treatment anytime.
+
+    Prior to leaving, the doctor will suggest a wellness program to incorporate outside of treatment.  If you are in pain when you first come into our office this may include: ice or heat application instructions, certain activities or positions to avoid, and at home exercises and/or stretches.  If you desire, our wellness team will work with you also to create healthy habits and routines for your lifestyle.  Every person is unique; therefore, everyone requires a customized wellness plan.  The purpose of our wellness program is for you to achieve good spinal alignment, have a healthy diet, exercise, and maintain a positive mental state. 
+  heading: Treatment and Wellness Program
 subtitle: ''
 menu:
   main:
