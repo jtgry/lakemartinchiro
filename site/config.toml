@@ -1,16 +1,17 @@
+assetDir = "static"
 baseurl = "/"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+enableRobotsTXT = true
+googleAnalytics = "UA-123723601-1"
 languageCode = "en-us"
 languageLang = "en"
 title = "Lake Martin Chiro"
-enableRobotsTXT = true
-assetDir = "static"
-
-googleAnalytics = "UA-123723601-1"
-
 [imaging]
 quality = 90
-
+[[menu.main]]
+name = "What To Expect"
+url = "/what-to-expect"
+weight = 5
 [[menu.main]]
 name = "Our Services"
 url = "/our-services/"
