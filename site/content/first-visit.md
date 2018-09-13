@@ -48,6 +48,21 @@ blocks:
     Next, you will have a one-on-one consultation with Dr. Peaden to discuss your spinal health-related problems, concerns, and potential treatment options. This initial visit is designed for Dr. Peaden , to learn more about you, your condition( back pain, neck pain, headaches) , and  expectations to determine chiropractic care can meet your goals. It also is a time for you as a patient to determine if this is the right chiropractic office for you. Correcting your spine is a team effort. Once your body has fully healed, routine chiropractic care can help ensure that your physical problems do not return and keep your body in optimal condition. Just like continuing an exercise program and eating well in order to sustain the benefits of exercise and proper diet, it is necessary to continue chiropractic care to ensure the health of your musculoskeletal system.
 
     When you make routine chiropractic care a part of your lifestyle, you avoid many of the aches and pains that so many people suffer through, your joints will last longer, and you will be able to engage in more of the activities you love.
+- template: block-content
+  heading: Examination and Xray Studies
+  content: "After your consultation, Dr. Peaden, will perform a complete chiropractic
+    examination testing your reflexes and flexibility. This exam includes a special
+    computerized nerve and muscle scan. This simple but effective test will tell **Dr.
+    Peaden** if your **neck pain** or **back pain** is a **musculoskeletal** issue
+    or not. Other standard neurological, orthopedic, postural, and physical tests
+    will be performed as well. We explain our procedures in detail, answer your questions
+    and get your consent before each procedure.\n\nDepending on your specific condition,
+    we will take any necessary X-rays as part of your spine examination.  X-rays help
+    us develop the most effective treatment plan for you, and alert us of any serious
+    spinal conditions. Most people are amazed once they see their X-rays up close.
+    In some cases, they can even identify their misalignments and degeneration themselves.
+    At the specific periods during the corrective care we do follow up x-rays to confirm
+    the **spinal correction**    "
 subtitle: ''
 menu:
   main:
