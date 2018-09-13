@@ -35,12 +35,6 @@ blocks:
     only appear after a disease or other condition has become advanced."
   image: uploads/_DSC0433-1.jpg
 - template: block-content
-  heading: Corrective & Restorative Care
-  content: |-
-    Do not be discouraged if you have mild flare-ups in your symptoms on occasion. This is normal. Flare-ups are bound to occur during this phase because your body has not fully healed. Depending on the severity of your injury or condition and how long you have been suffering from it, this phase of your care may last anywhere from a few months to a couple of years.
-
-    We will verify your insurance coverage and explain how it might support your chiropractic needs. Our wellness team will work with you to create healthy habits and routines for your lifestyle. Every person is unique; therefore, everyone requires a customized wellness plan. The purpose of our wellness program is for you to achieve good spinal alignment, have a healthy diet, exercise, and maintain a positive mental state. It is typical to need care 4-8 times per month for 6-24 months, depending on your overall health and the severity of your problem.
-- template: block-content
   heading: Your First Visit
   content: |-
     Upon entering our office, our trained staffed will welcome you as a member of our family.  We will request that you complete our patient forms. This paperwork provides us with your health history and information on your condition.
