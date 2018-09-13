@@ -11,19 +11,19 @@ quality = 90
 [[menu.main]]
 name = "What To Expect"
 url = "/what-to-expect"
-weight = 5
+weight = 2
 [[menu.main]]
 name = "Our Services"
 url = "/our-services/"
-weight = 4
+weight = 5
 [[menu.main]]
 name = "Care Team"
 url = "/your-care-team/"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "Dr. Peaden"
 url = "/dr-peaden/"
-weight = 2
+weight = 3
 [params]
 description = "At Lake Martin Chiropractic we know that patient relationships are important. Our staff always puts the needs and wellbeing of our patients first."
 email = "lakemartinchiro@gmail.com"
