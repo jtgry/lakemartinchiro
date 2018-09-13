@@ -2450,6 +2450,16 @@ window.onload = function () {
 		delay: 100,
 		distance: '50px'
 	});
+	sr.reveal('.content', { 
+		duration: 1000,
+		delay: 100,
+		distance: '50px'
+	});
+	sr.reveal('.step', { 
+		duration: 1000,
+		delay: 100,
+		distance: '50px'
+	});
 	sr.reveal('.cta__inner', { 
 		duration: 800,
 		delay: 100

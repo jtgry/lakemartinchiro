@@ -50,10 +50,9 @@
 .expanded__image{
 	width: 90%;
 	max-width: 220px;
-	padding: 16pt 0;
 
 	@include desktop{
-		max-width: 280px;
+		max-width: 400px;
 	}
 }
 

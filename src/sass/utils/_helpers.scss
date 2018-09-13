@@ -4,4 +4,9 @@
 
 .rounded{
 	border-radius: 50%;
+	box-shadow: $box-shadow;
+}
+
+.center-element{
+	margin: 0 auto;
 }

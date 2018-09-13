@@ -4,8 +4,10 @@
 			{{- with .Params.heading -}}
 			<h2>{{ markdownify . }}</h2>
 			{{ end }}
-      {{- with .Params.content -}}
-      <p>{{ markdownify . }}</p>
+			{{- with .Params.content -}}
+			<div class="text-container center-element">
+				<p>{{ markdownify . }}</p>
+			</div>
       {{ end }}
 		</div>
 		{{- if .Params.items -}}
@@ -16,7 +18,7 @@
 						<div class="step__media">
 							{{ $image := resources.Get .image }}
 							{{ if in $image.MediaType.Suffixes "svg" }}
-								<img src="{{ $image.RelPermalink }}" class="step__image" alt="">
+								<img src="{{ $image.RelPermalink }}" class="step__svg" alt="">
 							{{ else }}
 								{{ $imagecropped := $image.Fill "600x600 center" }}
 								<img src="{{ $imagecropped.RelPermalink }}" class="step__image rounded" alt="">
@@ -25,8 +27,8 @@
 
 						</div>
 
-						<h4>{{ .name }}</h4>
-						<p class="step__text">{{ .content }}</p>
+						<h3>{{ .name }}</h3>
+						<div class="step__text">{{ markdownify .content }}</div>
 					</div>
 				{{ end }}
 			</div>
