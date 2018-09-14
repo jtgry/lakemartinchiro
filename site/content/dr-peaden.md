@@ -1,7 +1,6 @@
 ---
 title: Dr. Ryan Peaden
 image: uploads/_DSC0401.jpg
-draft: true
 
 ---
 Dr. Peaden grew up in Tallassee, AL and graduated from Tallassee High School. He earned a B.S. in Biology from Auburn University of Montgomery, and continued his education at Palmer College of Chiropractic in Port Orange, Florida. He graduated in 2006 with a Doctorate of Chiropractic Medicine.
