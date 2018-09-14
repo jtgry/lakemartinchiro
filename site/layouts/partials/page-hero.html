@@ -1,6 +1,6 @@
 <!-- Hero unit -->
 {{ if .Params.image }}
-{{ $image := (resources.Get .Params.image).Fill "2000x1168" }}
+{{ $image := (resources.Get .Params.image).Fill "2000x1168 top" }}
 <div class="page__header" style="background-image:url({{ $image.RelPermalink }});">
 {{ else }}
 
