@@ -23,6 +23,7 @@ fields:
   - block-steps
   - block-expanded
 pages:
+- site/content/our-services.md
 - site/content/what-to-expect.md
 - site/content/your-care-team.md
 - site/content/first-visit.md
