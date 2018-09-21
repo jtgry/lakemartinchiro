@@ -32,12 +32,11 @@ blocks:
     content: During this chiropractic therapy, electrodes are placed on the skin that
       send light electrical pulses to different areas of the body with the purpose
       of reducing inflammation, curtailing muscle spasms and relieving back pain.
-    image: uploads/_DSC0457-1.jpg
+    image: uploads/chiro-spine.svg
   - template: block-item
     name: Decompression
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: images/chiro-adjustment.svg
-
 subtitle: ''
 
 ---
