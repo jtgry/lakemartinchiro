@@ -18,8 +18,14 @@ blocks:
     458-2633 and one of our trained staff will be glad to set up an appointment. '
   items:
   - template: block-item
-    name: Chiropractic Manipulation & Adjustments
-    content: At Lake Martin Chiropractic we know that patient relationships are important.
+    name: Chiropractic Care
+    content: We provide advanced spinal correction utilizing "state of the art" chiropractic
+      techniques. Never in the history of chiropractic have we been able to provide
+      the level of help and expertise that now exists. These newer correction methods
+      are even safer, more comfortable and more effective than ever before. As a Doctor
+      of Chiropractic, Dr. Peaden, D.C. has years of training and experience in spinal
+      adjustment.  We also specialize in the Activator technique and Impulse Instrument
+      adjusting.
     image: images/chiro-table.svg
   - template: block-item
     name: Electrical Stimulation
