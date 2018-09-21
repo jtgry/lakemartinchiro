@@ -24,4 +24,3 @@ heading = "Payment Options"
 template = "block-content"
 
 +++
-We will verify your insurance coverage and explain how it might support your chiropractic needs. Our wellness team will work with you to create healthy habits and routines for your lifestyle. Every person is unique; therefore, everyone requires a customized wellness plan. The purpose of our wellness program is for you to achieve good spinal alignment, have a healthy diet, exercise, and maintain a positive mental state. It is typical to need care 4-8 times per month for 6-24 months, depending on your overall health and the severity of your problem
