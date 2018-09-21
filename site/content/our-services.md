@@ -28,9 +28,11 @@ blocks:
       adjusting.
     image: images/chiro-table.svg
   - template: block-item
-    name: Electrical Stimulation
-    content: At Lake Martin Chiropractic we know that patient relationships are important.
-    image: images/chiro-back.svg
+    name: Electrical Muscle Stimulation
+    content: During this chiropractic therapy, electrodes are placed on the skin that
+      send light electrical pulses to different areas of the body with the purpose
+      of reducing inflammation, curtailing muscle spasms and relieving back pain.
+    image: uploads/_DSC0457-1.jpg
   - template: block-item
     name: Decompression
     content: At Lake Martin Chiropractic we know that patient relationships are important.
