@@ -37,6 +37,12 @@ blocks:
     name: Decompression
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: images/chiro-adjustment.svg
+    
+'
+    name: X-Ray Studies
+    image: uploads/chiro-back.svg
+- template: block-steps
+  items:
   - template: block-item
     content: 'Depending on your specific condition, we will take any necessary X-rays
       as part of your spine examination. X-rays help us develop the most effective
@@ -45,13 +51,6 @@ blocks:
       even identify their misalignments and degeneration themselves. At the specific
       periods during the corrective care we do follow up x-rays to confirm the spinal
       correction.
-
-'
-    name: X-Ray Studies
-    image: uploads/chiro-back.svg
-- template: block-steps
-  items:
-  - template: block-item
 subtitle: ''
 
 ---
