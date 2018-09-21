@@ -39,8 +39,6 @@ blocks:
     image: images/chiro-adjustment.svg
     
 '
-    name: X-Ray Studies
-    image: uploads/chiro-back.svg
 - template: block-steps
   items:
   - template: block-item
