@@ -5,7 +5,8 @@
 .steps__inner{
 	@include desktop{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-evenly;
+		
 	}
 }
 
@@ -15,6 +16,7 @@
 	width: 100%;
 	border-top: 1px solid $line;
 	overflow: auto; 
+	margin: 0 16pt;
 
 	&:first-child{
 		border-top: none;
@@ -24,7 +26,7 @@
 	@include desktop{
 		border-top: none;
 		width: auto;
-		margin: auto;
+
 	}
 }
 

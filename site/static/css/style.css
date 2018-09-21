@@ -1575,15 +1575,17 @@ select {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around; } }
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; } }
 
 .step {
   padding: 16pt 0;
   text-align: center;
   width: 100%;
   border-top: 1px solid #eee;
-  overflow: auto; }
+  overflow: auto;
+  margin: 0 16pt; }
   .step:first-child {
     border-top: none; }
   @media (min-width: 992px) {
@@ -1638,11 +1640,7 @@ select {
   max-width: 36ch;
   text-align: left;
   margin-left: auto;
-  margin-right: auto;
-  display: inline-block; }
-  @media (min-width: 992px) {
-    .step__text {
-      max-width: 80%; } }
+  margin-right: auto; }
 
 .expanded {
   padding: 72pt 0; }
