@@ -37,6 +37,33 @@ blocks:
     name: Decompression
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: images/chiro-adjustment.svg
+- template: block-steps
+  items:
+  - template: block-item
+    content: Electrical muscle stimulation. During this chiropractic therapy, electrodes
+      are placed on the skin that send light electrical pulses to different areas
+      of the body with the purpose of reducing inflammation, curtailing muscle spasms
+      and relieving back pain.
+    name: Electrical Simulation
+    image: uploads/chiro-table.svg
+  - template: block-item
+    name: Cold Laser Therapy
+    content: 'Used to reduce pain, swelling and spasms. The Deep tissue laser therapy
+      is a non-invasive, It is a handheld device that emits Low level- laser light
+      energy that cells use to heal injured tissue and reduce pain and inflammation.
+      and painless therapy for the treatment of pain and inflammation. Treatment can
+      help chronic pain and inflammation due to its capability to penetrate the skin
+      and treat soft tissue injuries. '
+    image: uploads/chiro-alignment.svg
+  - template: block-item
+    name: 'IASTM Therapy '
+    content: IASTM Therapy is a non-invasive technique that uses specially designed
+      stainless-steel instruments to help the clinician identify and treat areas exhibiting
+      soft tissue problems or chronic inflammation. It is successful in effectively
+      treating all soft tissue conditions, whether they are chronic, acute or post-surgical.
+      This unique therapy and instruments enable the clinician to address scar tissue
+      and fascial restrictions during rehabilitation.
+    image: uploads/chiro-alignment.svg
 subtitle: ''
 
 ---
