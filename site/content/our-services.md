@@ -55,7 +55,7 @@ blocks:
       and painless therapy for the treatment of pain and inflammation. Treatment can
       help chronic pain and inflammation due to its capability to penetrate the skin
       and treat soft tissue injuries. '
-    image: uploads/chiro-alignment.svg
+    image: uploads/chiro-backbone.svg
   - template: block-item
     name: 'IASTM Therapy '
     content: IASTM Therapy is a non-invasive technique that uses specially designed
