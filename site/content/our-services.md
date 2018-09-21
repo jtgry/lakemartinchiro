@@ -49,6 +49,7 @@ blocks:
 '
     name: X-Ray Studies
     image: uploads/chiro-back.svg
+- template: block-steps
 subtitle: ''
 
 ---
