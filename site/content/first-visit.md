@@ -4,22 +4,10 @@ image: uploads/_DSC0339.jpg
 type: page
 blocks:
 - template: block-expanded
-  content: |-
-    One of the best things about receiving chiropractic adjustments is that they are a completely drug-free path to healing the body naturally. Chiropractic benefits including helping to naturally improve problems such as:
-
-    * Back pain
-    * Headaches
-    * Bowel regularity
-    * Improved mental clarity
-    * Ear infections
-    * Neck pain
-    * Arthritis and joint pain
-    * Scoliosis
-    * Asthma
-    * Blood pressure
-    * Healthy pregnancy
-    * Organ function
-    * Surgery prevention
+  content: "One of the best things about receiving chiropractic adjustments is that
+    they are a completely drug-free path to healing the body naturally. Chiropractic
+    benefits including helping to naturally improve problems such as, back pain, headaches,
+    asthma, healthy pregnancy, and much more. \n"
   heading: 'Chiropractic Benefits '
   image: uploads/chiro-alignment.svg
 - template: block-content
