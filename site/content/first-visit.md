@@ -10,6 +10,8 @@ blocks:
     asthma, healthy pregnancy, and much more. \n"
   heading: 'Chiropractic Benefits '
   image: uploads/chiro-alignment.svg
+  button_text: Learn More
+  button_url: "/treatable-conditions"
 - template: block-content
   heading: Your First Visit
   content: |-
