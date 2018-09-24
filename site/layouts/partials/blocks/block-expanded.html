@@ -18,6 +18,9 @@
         {{- with .Params.content -}}
         <p class="expanded__text">{{ markdownify . }}</p>
         {{ end }}
+        {{- with .Params.button_url -}}
+				<a href="{{ . }}" class="button button__accent">{{ $.Params.button_text }}</a>
+				{{ end }}
       </div>
     </div>
   </div>
