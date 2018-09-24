@@ -23,6 +23,7 @@ fields:
   - block-steps
   - block-expanded
 pages:
+- site/content/Chiropractic-Benefits.md
 - site/content/our-services.md
 - site/content/dr-peaden.md
 - site/content/what-to-expect.md
