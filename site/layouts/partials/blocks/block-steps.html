@@ -2,7 +2,9 @@
   <div id="steps" class="steps landing__section">
 		<div class="container">
 			{{- with .Params.heading -}}
-			<h2>{{ markdownify . }}</h2>
+			<div class="center">
+				<h2>{{ markdownify . }}</h2>
+			</div>
 			{{ end }}
 			{{- with .Params.content -}}
 			<div class="text-container center-element">

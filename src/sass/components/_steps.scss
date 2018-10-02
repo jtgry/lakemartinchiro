@@ -54,7 +54,7 @@
 }
 
 .step__svg{
-	height: 30vh;
+	height: 25vh;
 	@include noDragging;
 
 	@include tablet{
@@ -76,4 +76,7 @@
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
+	@include tablet{
+		text-align: center;
+	}
 }
