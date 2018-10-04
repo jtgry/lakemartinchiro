@@ -1596,7 +1596,7 @@ select {
   position: relative; }
   @media (min-width: 992px) {
     .step__media {
-      margin: 32pt 0; } }
+      margin: 32pt; } }
 
 .step__overlay {
   position: absolute;
