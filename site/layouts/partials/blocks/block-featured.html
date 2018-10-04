@@ -1,0 +1,27 @@
+  <!-- Steps -->
+  <div id="steps" class="steps landing__section">
+		<div class="container">
+			<div class="step">
+				<div class="step__media">
+					{{ $image := resources.Get .Params.image }}
+					{{ if in $image.MediaType.Suffixes "svg" }}
+						<img src="{{ $image.RelPermalink }}" class="step__svg" alt="">
+					{{ else }}
+						{{ $imagecropped := $image.Fill "600x600 center" }}
+						<img src="{{ $imagecropped.RelPermalink }}" class="step__image rounded" alt="">
+
+					{{ end }}
+
+				</div>
+				{{- with .Params.name -}}
+				<h3>{{ . }}</h3>
+				{{ end }}
+				{{- with .Params.heading -}}
+				<h4>{{ . }}</h4>
+				{{ end }}
+				<div class="left-align">
+					{{ markdownify .Params.content }}
+				</div>
+			</div>
+		</div>
+	</div>

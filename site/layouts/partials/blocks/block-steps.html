@@ -28,8 +28,12 @@
 							{{ end }}
 
 						</div>
-
-						<h3>{{ .name }}</h3>
+						{{- with .name -}}
+						<h3>{{ . }}</h3>
+						{{ end }}
+						{{- with .heading -}}
+						<h4>{{ . }}</h4>
+						{{ end }}
 						<div class="step__text">{{ markdownify .content }}</div>
 					</div>
 				{{ end }}

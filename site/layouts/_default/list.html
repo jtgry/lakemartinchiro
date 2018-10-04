@@ -28,6 +28,7 @@
 {{- if eq .template "block-expanded" -}}{{ partial "blocks/block-expanded" (dict "Params" .) }}{{- end -}}
 {{- if eq .template "block-calltoaction" -}}{{ partial "blocks/block-calltoaction" (dict "Params" .) }}{{- end -}}
 {{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-featured" -}}{{ partial "blocks/block-featured" (dict "Params" .) }}{{- end -}}
 {{- end -}}
 
 {{end}}
