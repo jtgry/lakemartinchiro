@@ -72,6 +72,22 @@ blocks:
       relief.
     name: Trigger Point Therapy
     image: uploads/chiro-adjustment.svg
+- template: block-steps
+  items:
+  - template: block-item
+    name: Ultrasound
+    content: Therapeutic ultrasound uses sound waves to deliver deep heat to the treated
+      tissues. The treatments may help reduce stiffness, swelling, and pain, increase
+      circulation, and promote pain-free movement
+    image: uploads/chiro-alignment.svg
+  - template: block-item
+    name: Nutritional Counseling
+    content: We provide specific recommendations on nutritional supplements and healthy
+      food choices to enhance our patient´s return to optimal health. Do you know
+      which supplements and vitamins are good for you? Do you know how these supplements
+      and vitamins interact with one another? Dr Peaden can provide a structured nutritional
+      program based on your individual needs.
+  - template: block-item
 subtitle: ''
 
 ---
