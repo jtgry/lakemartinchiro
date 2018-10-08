@@ -23,6 +23,12 @@ blocks:
     name: Lake Martin Chiro
     content: At Lake Martin Chiropractic we know that patient relationships are important.
     image: images/chiro-spine.svg
+- template: block-calltoaction
+  heading: Visit Us
+  content: Please click the button below
+  image: uploads/lakemartinchiromap.jpg
+  button_text: Directions
+  button_url: https://goo.gl/maps/cs4AbayLMR22
 - template: block-expanded
   heading: Enjoy Life without restrictions
   content: At Lake Martin Chiropractic we know that patient relationships are important.
@@ -51,11 +57,5 @@ blocks:
   image: uploads/_DSC0606-1.jpg
   button_text: Make Appointment
   button_url: "/contact"
-- template: block-calltoaction
-  heading: Visit Us
-  content: Please click the button below
-  image: uploads/lakemartinchiromap.jpg
-  button_text: Directions
-  button_url: https://goo.gl/maps/cs4AbayLMR22
 
 ---
