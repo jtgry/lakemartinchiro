@@ -51,5 +51,11 @@ blocks:
   image: uploads/_DSC0606-1.jpg
   button_text: Make Appointment
   button_url: "/contact"
+- template: block-calltoaction
+  heading: Visit Us
+  content: Please click the button below
+  image: uploads/lakemartinchiromap.jpg
+  button_text: Directions
+  button_url: https://goo.gl/maps/cs4AbayLMR22
 
 ---
