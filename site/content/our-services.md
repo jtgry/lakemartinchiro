@@ -6,20 +6,16 @@ blocks:
   heading: ''
   items:
   - template: block-item
-    name: Chiropractic Care
-    content: We provide advanced spinal correction utilizing "state of the art" chiropractic
-      techniques. Never in the history of chiropractic have we been able to provide
-      the level of help and expertise that now exists. These newer correction methods
-      are even safer, more comfortable and more effective than ever before. As a Doctor
-      of Chiropractic, Dr. Peaden, D.C. has years of training and experience in spinal
-      adjustment.  We also specialize in the Activator technique and Impulse Instrument
-      adjusting.
+    name: Chiropractic Manipulation/Adjustments
+    content: A chiropractic adjustment refers to a chiropractor applying manipulation
+      to the vertebrae that have abnormal movement patterns or fail to function normally,
+      subluxation.
     image: images/chiro-table.svg
   - template: block-item
-    name: Electrical Muscle Stimulation
-    content: During this chiropractic therapy, electrodes are placed on the skin that
-      send light electrical pulses to different areas of the body with the purpose
-      of reducing inflammation, curtailing muscle spasms and relieving back pain.
+    name: Sports Injury Rehabilitation
+    content: We treat a range of conditions including acute sports injuries, strains,
+      sprains, muscle, tendon and ligament repairs, tendinitis, hand injuries, shoulder
+      dislocation, foot or ankle dysfunction
     image: uploads/chiro-spine.svg
   - template: block-item
     name: Decompression
