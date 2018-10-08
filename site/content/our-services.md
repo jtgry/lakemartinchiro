@@ -62,6 +62,11 @@ blocks:
       are precise and gentle.
     image: uploads/chiro-spine.svg
   - template: block-item
+    content: Rehabilitative taping technique that is designed to facilitate the body’s
+      natural healing process while providing support and stability to muscles and
+      joints without restricting the body
+    name: Kinesiotaping
+    image: uploads/chiro-back.svg
   - template: block-item
 subtitle: ''
 
