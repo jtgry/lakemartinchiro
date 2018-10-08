@@ -16,7 +16,7 @@ blocks:
     content: We treat a range of conditions including acute sports injuries, strains,
       sprains, muscle, tendon and ligament repairs, tendinitis, hand injuries, shoulder
       dislocation, foot or ankle dysfunction
-    image: uploads/chiro-spine.svg
+    image: uploads/chiro-therapy.svg
   - template: block-item
     name: Decompression
     content: Spinal decompression aims to stretch and lengthen the spine to relieve
