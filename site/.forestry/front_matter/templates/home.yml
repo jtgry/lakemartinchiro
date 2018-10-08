@@ -23,6 +23,7 @@ fields:
   name: blocks
   label: Blocks
   template_types:
+  - block-calltoaction
   - block-content
   - block-steps
   - block-expanded
