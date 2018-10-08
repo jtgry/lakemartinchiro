@@ -82,9 +82,8 @@ blocks:
     name: Nutritional Counseling
     content: We provide specific recommendations on nutritional supplements and healthy
       food choices to enhance our patient´s return to optimal health. Do you know
-      which supplements and vitamins are good for you? Do you know how these supplements
-      and vitamins interact with one another? Dr Peaden can provide a structured nutritional
-      program based on your individual needs.
+      which supplements and vitamins are good for you?  Dr Peaden can provide a structured
+      nutritional program based on your individual needs.
     image: uploads/chiro-therapy.svg
   - template: block-item
     name: Lifestyle Advice
