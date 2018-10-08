@@ -13,8 +13,9 @@ blocks:
   items:
   - template: block-item
     name: Health
-    content: 'At Lake Martin Chiropractic Health Center, we take great pride in providing
-      the finest chiropractic care for our patients. '
+    content: 'Dr. Peaden emphasizes in pain relief, both in managing pain and eliminating
+      it, through Corrective Chiropractic Care. If you are in pain when you come into
+      our office, the first goal is to reduce your symptoms to help you feel better. '
     image: uploads/chiro-backbone.svg
   - template: block-item
     name: Wellness
