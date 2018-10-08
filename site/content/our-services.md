@@ -68,6 +68,10 @@ blocks:
     name: Kinesiotaping
     image: uploads/chiro-back.svg
   - template: block-item
+    content: Consists of rubbing and pressing on trigger points — which can give amazing
+      relief.
+    name: Trigger Point Therapy
+    image: uploads/chiro-adjustment.svg
 subtitle: ''
 
 ---
