@@ -41,9 +41,7 @@ blocks:
     content: 'Used to reduce pain, swelling and spasms. The Deep tissue laser therapy
       is a non-invasive, It is a handheld device that emits Low level- laser light
       energy that cells use to heal injured tissue and reduce pain and inflammation.
-      and painless therapy for the treatment of pain and inflammation. Treatment can
-      help chronic pain and inflammation due to its capability to penetrate the skin
-      and treat soft tissue injuries. '
+      and painless therapy for the treatment of pain and inflammation. '
     image: uploads/chiro-backbone.svg
   - template: block-item
     name: 'IASTM Therapy '
