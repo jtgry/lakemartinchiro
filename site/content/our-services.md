@@ -19,7 +19,9 @@ blocks:
     image: uploads/chiro-spine.svg
   - template: block-item
     name: Decompression
-    content: At Lake Martin Chiropractic we know that patient relationships are important.
+    content: Spinal decompression aims to stretch and lengthen the spine to relieve
+      the pressure placed on the vertebrae and discs from certain spine conditions,
+      such as herniated discs and spinal stenosis
     image: images/chiro-adjustment.svg
   content: |-
     At Lake Martin Chiropractic Health Center, we take great pride in providing the finest chiropractic care for our patients. Dr. Peaden offers gentle and effective chiropractic treatments that will help you get out of pain and will restore and rehabilitate your spine to further your overall health and wellness. We use a hands-on approach as well as precision instruments for gentle and precise chiropractic
