@@ -45,12 +45,10 @@ blocks:
     image: uploads/chiro-backbone.svg
   - template: block-item
     name: 'IASTM Therapy '
-    content: IASTM Therapy is a non-invasive technique that uses specially designed
+    content: 'IASTM Therapy is a non-invasive technique that uses specially designed
       stainless-steel instruments to help the clinician identify and treat areas exhibiting
       soft tissue problems or chronic inflammation. It is successful in effectively
-      treating all soft tissue conditions, whether they are chronic, acute or post-surgical.
-      This unique therapy and instruments enable the clinician to address scar tissue
-      and fascial restrictions during rehabilitation.
+      treating all soft tissue conditions, whether they are chronic, acute or post-surgical. '
     image: uploads/chiro-alignment.svg
 - template: block-steps
   items:
