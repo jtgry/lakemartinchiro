@@ -34,8 +34,8 @@ blocks:
   heading: Our Mission
   content: Our mission at Lake Martin Chiropractic is to educate the community on
     the importance of a balanced nervous system, appropriate diet, and active lifestyle,
-    as well as empowers many people as possible to take a proactive approach in their
-    pursuit of optimal health through chiropractic care.
+    as well as empower as many people as possible to take a proactive approach in
+    their pursuit of optimal health through chiropractic care.
   image: images/chiro-spine.svg
 - template: block-expanded
   heading: Chiropractic Care
