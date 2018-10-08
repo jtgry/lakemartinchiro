@@ -29,7 +29,7 @@ blocks:
     image: images/chiro-spine.svg
 - template: block-calltoaction
   heading: Visit Us
-  content: Please click the button below
+  content: 'Ready to begin your treatment? '
   image: uploads/lakemartinchiromap.jpg
   button_text: Directions
   button_url: https://goo.gl/maps/cs4AbayLMR22
