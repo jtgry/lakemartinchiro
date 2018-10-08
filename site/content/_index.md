@@ -12,7 +12,7 @@ blocks:
     enjoy life without restrictions. '
   items:
   - template: block-item
-    name: Chiropractic Care
+    name: Health
     content: 'At Lake Martin Chiropractic Health Center, we take great pride in providing
       the finest chiropractic care for our patients. '
     image: uploads/chiro-backbone.svg
