@@ -54,6 +54,15 @@ blocks:
       This unique therapy and instruments enable the clinician to address scar tissue
       and fascial restrictions during rehabilitation.
     image: uploads/chiro-alignment.svg
+- template: block-steps
+  items:
+  - template: block-item
+    name: Scoliosis Treatment
+    content: Aiming to gradually correct the spine into a classic spinal curve, scoliosis-treatments
+      are precise and gentle.
+    image: uploads/chiro-spine.svg
+  - template: block-item
+  - template: block-item
 subtitle: ''
 
 ---
