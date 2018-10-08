@@ -68,8 +68,10 @@ blocks:
     name: Kinesiotaping
     image: uploads/chiro-back.svg
   - template: block-item
-    content: Consists of rubbing and pressing on trigger points — which can give amazing
-      relief.
+    content: 'Trigger Point therapy offers a natural conservative treatment approach that
+      relieves musculoskeletal pain for many patients. Our office provides specific
+      massage and muscular therapy that is tailored to meet the patient''s condition
+      and injury, '
     name: Trigger Point Therapy
     image: uploads/chiro-adjustment.svg
 - template: block-steps
