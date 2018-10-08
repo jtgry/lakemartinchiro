@@ -87,7 +87,16 @@ blocks:
       which supplements and vitamins are good for you? Do you know how these supplements
       and vitamins interact with one another? Dr Peaden can provide a structured nutritional
       program based on your individual needs.
+    image: uploads/chiro-therapy.svg
   - template: block-item
+    name: Lifestyle Advice
+    content: We often find it helpful to "coach" our patients on certain activities
+      they should avoid or do differently to avoid aggravating their particular health
+      challenge. Our goal is to help every patient achieve a fulfilling and happy
+      lifestyle full of the activities they enjoy most. We recognize that each our
+      patient is a whole person and help them reach true health and wellness is a
+      collaborate effort between our professionals and our patients.
+    image: uploads/chiro-backbone.svg
 subtitle: ''
 
 ---
