@@ -23,7 +23,8 @@ blocks:
     image: images/chiro-back.svg
   - template: block-item
     name: Lake Martin Chiro
-    content: At Lake Martin Chiropractic we know that patient relationships are important.
+    content: 'At Lake Martin Chiropractic Health Center, we take great pride in providing
+      the finest chiropractic care for our patients. '
     image: images/chiro-spine.svg
 - template: block-calltoaction
   heading: Visit Us
