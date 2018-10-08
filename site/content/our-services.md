@@ -35,7 +35,7 @@ blocks:
       of the body with the purpose of reducing inflammation, curtailing muscle spasms
       and relieving back pain.
     name: Electrical Simulation
-    image: uploads/chiro-table.svg
+    image: uploads/chiro-spine.svg
   - template: block-item
     name: Cold Laser Therapy
     content: 'Used to reduce pain, swelling and spasms. The Deep tissue laser therapy
