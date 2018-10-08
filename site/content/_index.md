@@ -18,7 +18,8 @@ blocks:
     image: uploads/chiro-backbone.svg
   - template: block-item
     name: Wellness
-    content: At Lake Martin Chiropractic we know that patient relationships are important.
+    content: We emphasize corrective care to make your adjustments hold as long as
+      possible to minimize your need and dependence on future treatments. 
     image: images/chiro-back.svg
   - template: block-item
     name: Lake Martin Chiro
