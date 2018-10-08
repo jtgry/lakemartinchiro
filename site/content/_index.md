@@ -48,6 +48,7 @@ blocks:
 - template: block-calltoaction
   heading: Make Your Appointment
   content: At Lake Martin Chiropractic we know that patient relationships are important.
+  image: uploads/_DSC0606-1.jpg
   button_text: Make Appointment
   button_url: "/contact"
 
