@@ -3,7 +3,7 @@
 
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ else }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
 
-<meta property="og:title" content="{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }} | Eclectic, Lake Martin, Alex City, Auburn, Montgomery, Alabama">
+<meta property="og:title" content="{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }} | Alabama Chiropractic">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:image" content="/images/website.jpg">
 <meta property="og:url" content="{{ .URL }}">
