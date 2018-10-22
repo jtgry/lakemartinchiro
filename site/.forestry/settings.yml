@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: site/content/our-services
+  label: Our Services
+  create: all
+  match: "**/*"
+- type: directory
   path: site/content/reviews
   label: Reviews
   create: all
@@ -13,7 +18,7 @@ sections:
   path: site/content
   label: Pages
   create: all
-  match: "**/*"
+  match: "*"
 upload_dir: site/static/uploads
 public_path: uploads
 front_matter_path: ''
