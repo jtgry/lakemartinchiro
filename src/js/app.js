@@ -118,6 +118,12 @@ document.addEventListener('DOMContentLoaded', function () {
 				}
 			}, false);
 		});
+		var slides = document.querySelector('.js_slider');
+
+		lory(slides, {
+				infinite: 1,
+				slidesToScroll: 4
+		});
 	}
 
 
@@ -2466,11 +2472,6 @@ window.onload = function () {
 	});
 	
 	sr.reveal('.step', { duration: 1000 }, 50);
-})();
 
-  var slider = tns({
-    container: '.my-slider',
-    items: 3,
-		speed: 300,
-    autoplay: true
-  });
+
+})();

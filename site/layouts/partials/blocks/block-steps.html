@@ -24,9 +24,7 @@
 							{{ else }}
 								{{ $imagecropped := $image.Fill "600x600 center" }}
 								<img src="{{ $imagecropped.RelPermalink }}" class="step__image rounded" alt="">
-
 							{{ end }}
-
 						</div>
 						{{- with .name -}}
 						<h3>{{ . }}</h3>

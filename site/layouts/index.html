@@ -8,7 +8,30 @@
 {{- if eq .template "block-calltoaction" -}}{{ partial "blocks/block-calltoaction" (dict "Params" .) }}{{- end -}}
 {{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
 {{- if eq .template "block-featured" -}}{{ partial "blocks/block-featured" (dict "Params" .) }}{{- end -}}
-
 {{- end -}}
 
+<div id="steps" class="steps landing__section">
+		<div class="container">
+			<div class="center">
+				<h2>Our Reviews</h2>
+			</div>  
+			<div class="text-container center-element">
+
+			</div>
+		</div>
+		<div class="container">
+			<div class="steps__inner">
+          {{ range where .Data.Pages "Section" "reviews" }}
+					<div class="step">
+						<div class="step__media">
+						</div>
+						{{- with .Params.name -}}
+						<h3>{{ . }}</h3>
+						{{ end }}
+						<div class="step__text">{{ markdownify .Content }}</div>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
 {{end}}

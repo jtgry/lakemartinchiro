@@ -1,15 +1,30 @@
 {{ define "main" }}
 {{ block "page-hero" . }}{{ partial "page-hero" . }}{{end}}
 
-{{- range .Params.blocks -}}
-{{- if eq .template "block-steps" -}}{{ partial "blocks/block-steps" (dict "Params" .) }}{{- end -}}
-{{- if eq .template "block-expanded" -}}{{ partial "blocks/block-expanded" (dict "Params" .) }}{{- end -}}
-{{- if eq .template "block-calltoaction" -}}{{ partial "blocks/block-calltoaction" (dict "Params" .) }}{{- end -}}
-{{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
-{{- if eq .template "block-featured" -}}{{ partial "blocks/block-featured" (dict "Params" .) }}{{- end -}}
-{{- end -}}
-
 <!-- Page content -->
+{{ if .Parent }}
+<div class="page">
+	<div class="container">
+		<div class="page__inner">
+			<div class="page__menu">
+				<ul class="vMenu">
+					{{ $parent := .Parent }}
+					{{ $currentPage := . }}
+					<li><a href="{{ $parent.Permalink }}">{{ $parent.Title }}</a></li>
+					{{ range $parent.Pages }}
+						<li><a href="{{ .Permalink }}" class="{{ if eq $currentPage.Title .Title }}vMenu--active{{ end }}">{{ .Title }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			<div class="page__main">
+				<div class="text-container">
+					{{ .Content }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ else }}
 <div class="page">
 		<div class="container">
 			<div class="page__main">
@@ -19,6 +34,12 @@
 			</div>
 		</div>
 	</div>
-
 {{end}}
-
+{{- range .Params.blocks -}}
+{{- if eq .template "block-steps" -}}{{ partial "blocks/block-steps" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-expanded" -}}{{ partial "blocks/block-expanded" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-calltoaction" -}}{{ partial "blocks/block-calltoaction" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-content" -}}{{ partial "blocks/block-content" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "block-featured" -}}{{ partial "blocks/block-featured" (dict "Params" .) }}{{- end -}}
+{{- end -}}
+{{ end }}
