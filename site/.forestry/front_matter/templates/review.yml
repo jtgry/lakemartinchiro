@@ -12,6 +12,3 @@ fields:
 - type: file
   name: image
   label: Image
-pages:
-- site/content/reviews/travis-jones.md
-- site/content/reviews/josh-beene.md
