@@ -51,14 +51,20 @@
 	width: 90%;
 	max-width: 220px;
 
-	@include desktop{
+	@include huge{
 		max-width: 300px;
 	}
 }
-
+small.expanded__intro{
+	color: lighten($background-dark, 30%);
+	font-weight: 600;
+	font-size: .8rem;
+	margin-bottom: 0;
+}
 .expanded__title{
 	max-width: 550px;
 	text-align: left;
+	margin-top: .1em;
 }
 
 .expanded__text{

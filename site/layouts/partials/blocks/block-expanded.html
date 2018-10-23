@@ -12,6 +12,9 @@
         {{ end }}
       </div>
       <div class="expanded__content">
+        {{- with .Params.intro -}}
+        <small class="expanded__intro">{{ . }}</small>
+        {{ end }}
         {{- with .Params.heading -}}
         <h2 class="expanded__title">{{ markdownify . }}</h2>
         {{ end }}

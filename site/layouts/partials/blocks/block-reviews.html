@@ -7,10 +7,10 @@
 
     </div>
 		</div>
-		{{- if .Params.items -}}
+		{{- if .Params.reviews -}}
 		<div class="container">
 			<div class="steps__inner">
-          {{ range .Params.items }}
+          {{ range .Params.reviews }}
 					<div class="step">
 						<div class="step__media">
 						</div>
@@ -18,7 +18,7 @@
 						<h3>{{ . }}</h3>
 						{{ end }}
 						{{- with .content -}}
-						<div class="step__text">{{ markdownify . }}</div>
+						<div class="step__text"><p>{{ . }}</p></div>
 						{{ end }}
 					</div>
         {{ end }}

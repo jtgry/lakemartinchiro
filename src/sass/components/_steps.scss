@@ -32,7 +32,7 @@
 .step__media{
 	margin: 16pt 0;
 	position: relative;
-	@include desktop{
+	@include huge{
 		margin: 32pt;
 	}
 }
@@ -53,7 +53,7 @@
 }
 
 .step__svg{
-	height: 25vh;
+	height: 20vh;
 	@include noDragging;
 
 	@include tablet{

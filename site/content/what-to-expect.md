@@ -5,17 +5,20 @@ subtitle = ""
 title = "What To Expect"
 [[blocks]]
 content = "If you are in pain when you come into our office, the first goal is to reduce your symptoms to help you feel better. This may include: ice or heat application instructions, certain activities or positions to avoid, and at home exercises and/or stretches. Depending on the severity of your problem, the doctor will suggest a corrective care program. \n\nIt is typical to need care 2-3 times per week for 4-12 weeks. Most people are under the assumption that if they don't feel any pain that there is nothing wrong with them - that they are healthy. Unfortunately, pain is a very poor indicator of health. In fact, pain and other symptoms frequently only appear after a disease or other condition has become advanced."
-heading = "Phase 1: Relief Care"
+intro = "Phase One"
+heading = "Relief Care"
 image = "uploads/_DSC0450.jpg"
 template = "block-expanded"
 [[blocks]]
 content = "Correcting your spine & posture is crucial to reduce chances of having serious issues in the future. During the correction / restorative phase of your care, you will not have to receive adjustments as often as you did during the first phase of care and, depending on your particular circumstances, you may begin doing exercises and stretches either in office or at home to help accelerate your healing. In order to prevent a rapid recurrence of symptoms, it is necessary to continue receiving care even though your symptoms are gone.\n\nDo not be discouraged if you have mild flare-ups in your symptoms on occasion. This is normal. Flare-ups are bound to occur during this phase because your body has not fully healed. Depending on the severity of your injury or condition and how long you have been suffering from it, this phase of your care may last anywhere from a few months to a couple of years"
-heading = "Phase 2: Corrective/Restorative Care"
+intro = "Phase Two"
+heading = "Corrective & Restorative Care"
 image = "uploads/_DSC0564.jpg"
 template = "block-expanded"
 [[blocks]]
 content = "Once your body has fully healed, it is important to come in for periodic adjustments to avoid problems in the future. Usually, this only requires a quick visit to the chiropractor 1-3 times per month, based on your lifestyle and goals. Once your body has fully healed, routine chiropractic care can help ensure that your physical problems do not return and keep your body in optimal condition. Just like continuing an exercise program and eating well in order to sustain the benefits of exercise and proper diet, it is necessary to continue chiropractic care to ensure the health of your musculoskeletal system."
-heading = " Phase 3: Wellness Care/ Healthy Living "
+intro = "Phase Three"
+heading = "Wellness Care & Healthy Living "
 image = "uploads/_DSC0522.jpg"
 template = "block-expanded"
 [[blocks]]
