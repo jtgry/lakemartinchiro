@@ -65,6 +65,11 @@ blocks:
     content: Great service and friendly staff! They make you feel welcome. I look
       forward to my visits each week. I feel so much better than before I started
       going. Also such a convenient location for me and my family!
+  - template: block-item
+    name: Travis Jones
+    content: Nothing but great results from my experiences so far. Dr. Peaden and
+      his staff are great too. Recommend it to all my family and especially firefighter
+      friends.
 - template: block-calltoaction
   heading: Make Your Appointment
   content: At Lake Martin Chiropractic we know that patient relationships are important.
