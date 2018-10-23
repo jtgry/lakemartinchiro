@@ -355,7 +355,7 @@ img, svg {
 
 .text-container {
   max-width: 720px;
-  padding: 2em 0 0; }
+  padding: 0 0 2em; }
   .text-container--center {
     margin-left: auto;
     margin-right: auto; }
@@ -1778,52 +1778,8 @@ select {
   .cta__sub--center {
     text-align: center; }
 
-/**
-* (optional) define here the style definitions which should be applied on the slider container
-* e.g. width including further controls like arrows etc.
-*/
-.slider {
-  width: 980px;
-  margin: 0 auto 20px;
-  position: relative; }
-  .slider .frame {
-    /**
-    * (optional) wrapper width, specifies width of the slider frame.
-    */
-    width: 880px;
-    position: relative;
-    font-size: 0;
-    line-height: 0;
-    overflow: hidden;
-    white-space: nowrap; }
-  .slider .slides {
-    display: inline-block; }
-  .slider .js_slide {
-    position: relative;
-    display: inline-block;
-    min-height: 130px;
-    text-align: center;
-    font-size: 15px;
-    line-height: 30px;
-    background: #2E435A;
-    color: #fff;
-    background: #333C44;
-    /**
-      * (optional) if the content inside the slide element has a defined size.
-      */
-    width: 880px; }
-  .slider .prev, .slider .next {
-    position: absolute;
-    top: 50%;
-    margin-top: -25px;
-    display: block;
-    cursor: pointer; }
-  .slider .next {
-    right: 0; }
-  .slider .prev {
-    left: 0; }
-  .slider .next svg, .slider .prev svg {
-    width: 25px; }
+.reviews {
+  background: #fafafa; }
 
 .footer {
   background-color: #ffffff;

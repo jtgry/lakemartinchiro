@@ -55,6 +55,7 @@ blocks:
     Dr. Peaden and his staff can help you improve your general health, quality of
     life and wellness through chiropractic care.
   image: images/chiro-table.svg
+- template: block-reviews
 - template: block-calltoaction
   heading: Make Your Appointment
   content: At Lake Martin Chiropractic we know that patient relationships are important.

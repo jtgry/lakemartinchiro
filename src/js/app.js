@@ -118,12 +118,6 @@ document.addEventListener('DOMContentLoaded', function () {
 				}
 			}, false);
 		});
-		var slides = document.querySelector('.js_slider');
-
-		lory(slides, {
-				infinite: 1,
-				slidesToScroll: 4
-		});
 	}
 
 
