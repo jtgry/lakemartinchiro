@@ -1,26 +1,28 @@
 <div id="steps" class="steps reviews">
-		<div class="container">
-			<div class="center">
-				<h2>Our Reviews</h2>
-			</div>  
-			<div class="text-container center-element">
+  <div class="container">
+    <div class="center">
+      <h2>Our Reviews</h2>
+    </div>  
+    <div class="text-container center-element">
 
-			</div>
+    </div>
 		</div>
+		{{- if .Params.items -}}
 		<div class="container">
 			<div class="steps__inner">
-          {{ with .Site.GetPage "section" "reviews" }}
-          {{ range .Data.Pages }}
+          {{ range .Params.items }}
 					<div class="step">
 						<div class="step__media">
 						</div>
-						{{- with .Params.name -}}
+						{{- with .name -}}
 						<h3>{{ . }}</h3>
 						{{ end }}
-						<div class="step__text">{{ markdownify .Content }}</div>
+						{{- with .content -}}
+						<div class="step__text">{{ markdownify . }}</div>
+						{{ end }}
 					</div>
-        {{ end }}
         {{ end }}
 			</div>
 		</div>
+		{{ end }}
 	</div>

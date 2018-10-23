@@ -1583,7 +1583,6 @@ select {
   text-align: center;
   width: 100%;
   border-top: 1px solid #eee;
-  overflow: auto;
   margin: 0 16pt; }
   .step:first-child {
     border-top: none; }
