@@ -88,10 +88,7 @@ blocks:
       at Lake Martin Chiropractic. At my first visit in November, my back and neck
       were x rayed, then I discussed my medical history and a plan of care was made.
       I went 2 days a week for adjustments and E STEM for a short time and now once
-      a month. Dr Peaden is awesome and I feel very confident in his skills. The office
-      staff is very knowledgeable about treatments and insurance questions. Honestly
-      chiropractics makes so much sense.... Keeping your spine in line keeps the rest
-      of the body working better. '
+      a month. Dr Peaden is awesome and I feel very confident in his skills.'
     name: Camille Foshee
   - template: block-item
     content: Dr. Peaden and his staff are wonderful. He is very thorough and very

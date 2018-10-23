@@ -1,8 +1,29 @@
 .reviews{
   padding-bottom: 3em;
+  .steps__inner{
+  
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-content: flex-end;
+  align-content: flex-end;
+  }
  .step{
   box-shadow: $box-shadow;
   padding: 0 2em 2em;
   font-size: 80%;
+  margin-bottom: 2em;
+  height: 30vh;
+  min-height: 300px;
+  overflow: hidden;
  }
 }

@@ -8,7 +8,6 @@
     </div>
 		</div>
 		{{- if .Params.reviews -}}
-		<div class="container">
 			<div class="steps__inner">
           {{ range .Params.reviews }}
 					<div class="step">
@@ -23,6 +22,13 @@
 					</div>
         {{ end }}
 			</div>
-		</div>
+			<div class="container">
+					<div class="cta__inner">
+						<div class="cta__content center">
+								<h2 class="cta__title">Read More Reviews on Facebook</h2>
+							<a href="https://www.facebook.com/pg/Lake-Martin-Chiropractic-Health-Center-126017201362305/reviews/" class="button button__accent">Read More</a>
+						</div>
+					</div>
+				</div>
 		{{ end }}
 	</div>
