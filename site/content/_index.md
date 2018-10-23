@@ -58,18 +58,56 @@ blocks:
 - template: block-reviews
   reviews:
   - template: block-item
-    content: Awesome staff and great knowledge of the field!!
-    name: Josh Beene
-  - template: block-item
     name: Lakesha Nicole Vancoille
     content: Great service and friendly staff! They make you feel welcome. I look
       forward to my visits each week. I feel so much better than before I started
       going. Also such a convenient location for me and my family!
   - template: block-item
+    content: Awesome staff and great knowledge of the field!!
+    name: Josh Beene
+  - template: block-item
     name: Travis Jones
     content: Nothing but great results from my experiences so far. Dr. Peaden and
       his staff are great too. Recommend it to all my family and especially firefighter
       friends.
+  - template: block-item
+    content: Best experience ever!! Such an amazing and accommodating staff!! His
+      nurses are very sweet and make you feel very comfortable!! Dr. Peaden is awesome
+      and listens to your issues while explaining everything he does and making sure
+      he can try and correct the problem!! I’ve never felt better and have only been
+      twice so far!! Go see this awesome crew!!!!
+    name: Kristin Byal Beene
+  - template: block-item
+    content: Until a few months ago I had NEVER been to a chiropractor. From the front
+      desk to the doctor and all other office staff they are awesome. They listen
+      to me and help me with anything they can. My back feels so much better. I am
+      so glad I walked in the day I did.
+    name: Janet Leigh Watts
+  - template: block-item
+    content: 'I have been very pleased with the adjustments and care I have received
+      at Lake Martin Chiropractic. At my first visit in November, my back and neck
+      were x rayed, then I discussed my medical history and a plan of care was made.
+      I went 2 days a week for adjustments and E STEM for a short time and now once
+      a month. Dr Peaden is awesome and I feel very confident in his skills. The office
+      staff is very knowledgeable about treatments and insurance questions. Honestly
+      chiropractics makes so much sense.... Keeping your spine in line keeps the rest
+      of the body working better. '
+    name: Camille Foshee
+  - template: block-item
+    content: Dr. Peaden and his staff are wonderful. He is very thorough and very
+      good at what he does. Definitely recommend!!
+    name: Jenni Johnson
+  - template: block-item
+    content: Dr. Peaden and his staff are simply amazing. Dr. Peaden is thorough,
+      explains the treatment plan, and is always willing to answer any questions.
+      His staff is always friendly and eager to assist. I highly recommend Dr. Peaden
+      and his staff for you chiropractic needs.
+    name: Shelly Armstrong
+  - template: block-item
+    content: Dr. Peaden and his staff worked me in without an appointment this morning.
+      He found the cause of my pain, recommended a treatment plan, and tailored it
+      to my crazy schedule. Couldn’t ask for a more friendly atmosphere.
+    name: " Johnathan Stuckey"
 - template: block-calltoaction
   heading: Make Your Appointment
   content: At Lake Martin Chiropractic we know that patient relationships are important.
