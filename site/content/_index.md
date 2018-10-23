@@ -60,6 +60,11 @@ blocks:
   - template: block-item
     content: Awesome staff and great knowledge of the field!!
     name: Josh Beene
+  - template: block-item
+    name: Lakesha Nicole Vancoille
+    content: Great service and friendly staff! They make you feel welcome. I look
+      forward to my visits each week. I feel so much better than before I started
+      going. Also such a convenient location for me and my family!
 - template: block-calltoaction
   heading: Make Your Appointment
   content: At Lake Martin Chiropractic we know that patient relationships are important.
