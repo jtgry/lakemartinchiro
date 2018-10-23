@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{ block "page-hero" . }}{{ partial "page-hero" . }}{{end}}
 <div class="page">
-  <div class="form" method="post" action="/thanks/" name="contact" netlify-honeypot="bot-field" data-netlify="true">
+  <div class="form">
     <div class="container">
-      <form>
+      <form  method="post" action="/thanks/" name="contact" netlify-honeypot="bot-field" data-netlify="true">
         <div class="double">
           <div class="half">
             <label for="first">First Name</label>
