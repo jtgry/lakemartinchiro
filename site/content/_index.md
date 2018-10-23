@@ -56,6 +56,10 @@ blocks:
     life and wellness through chiropractic care.
   image: images/chiro-table.svg
 - template: block-reviews
+  reviews:
+  - template: block-item
+    content: Awesome staff and great knowledge of the field!!
+    name: Josh Beene
 - template: block-calltoaction
   heading: Make Your Appointment
   content: At Lake Martin Chiropractic we know that patient relationships are important.
