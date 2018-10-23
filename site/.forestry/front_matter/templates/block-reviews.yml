@@ -1,0 +1,17 @@
+---
+label: Block Reviews
+hide_body: false
+is_partial: true
+display_field: heading
+fields:
+- type: text
+  label: Heading
+  name: heading
+- type: textarea
+  name: content
+  label: Content
+- type: blocks
+  template_types:
+  - block-item
+  label: Reviews
+  name: reviews
