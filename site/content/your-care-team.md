@@ -26,11 +26,11 @@ blocks:
       her two boys Trent, and Gabe. She enjoys shopping, wandering around antique
       stores, watching football (ROLL TIDE!), cooking, and being in the sun."
   - template: block-item
-    name: Jennifer Shows
+    name: Jennifer
     heading: Chiropractic Assistant
     image: uploads/_DSC0069.jpg
     content: |-
-      Jennifer Shows is a Chiropractic Assistant with Lake Martin Chiropractic Health Center. She lives in her hometown of Eclectic with her husband Chris Shows. She graduated from Elmore County High School in 2007. In her free time, Jennifer loves being with her family and friends, especially her two nieces. She loves being adventurous, taking trips to the beach, traveling, and spending her summers on Lake Martin.
+      Jennifer is a Chiropractic Assistant with Lake Martin Chiropractic Health Center. She lives in her hometown of Eclectic with her husband Chris. She graduated from Elmore County High School in 2007. In her free time, Jennifer loves being with her family and friends, especially her two nieces. She loves being adventurous, taking trips to the beach, traveling, and spending her summers on Lake Martin.
 
        A fun fact about Jennifer is that she loves anything with a pineapple print on it. She was welcomed in the Lake Martin Chiropractic Health family in October of 2017 and truly loves her work family and patients. “My favorite part about chiropractic care, aside from the great benefits, is helping our patients feel their best."
 
