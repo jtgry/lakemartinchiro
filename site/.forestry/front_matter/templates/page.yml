@@ -23,9 +23,9 @@ fields:
   - block-steps
   - block-expanded
 pages:
-- site/content/your-care-team.md
-- site/content/thanks.md
-- site/content/what-to-expect.md
-- site/content/treatable-conditions.md
 - site/content/dr-peaden.md
 - site/content/first-visit.md
+- site/content/thanks.md
+- site/content/treatable-conditions.md
+- site/content/what-to-expect.md
+- site/content/your-care-team.md
